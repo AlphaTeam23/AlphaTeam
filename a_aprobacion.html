@@ -70,6 +70,8 @@
                             <option value="4s">4° Grado</option>
                             <option value="5s">5° Grado</option>
                             <option value="6s">6° Grado</option>
+                            <option value="6s">Cargar Todo</option>
+
                     </select>
 
                     <label for="prof">Profesor</label>
@@ -97,17 +99,45 @@
 
                     </select>
 
-                   
-
-
+            
                 </fieldset>
 
                 <input type="button" name="cargar" value="Cargar">
                 <input type="reset" value="Cancelar">
 
-    
+
+                
             </form>
         </section>
     </main>
+
+    <table border="1">
+        <thead>
+          <tr>
+            <th>Profesor</th>
+            <th>Curso</th>
+            <th>Nivel</th>
+            <th>Seccion</th>
+            <th>Total Estudiante</th>
+            <th>Mas Detalle</th>
+            <th>Aprobar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox" id="aprobar:"></td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="button" name="enviar" value="Enviar">
+
+
+
 </body>
 </html>
