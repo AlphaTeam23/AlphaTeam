@@ -9,49 +9,49 @@
 }
 
 
-body{
+body {
     background-color: #031D45;
     overflow-x: hidden;
     overflow: hidden;
   
 }
 
-.linea{
+.linea {
     background-color: rgba(217, 217, 217, 1);
-    height: 1270px;
+    height: 100%;
     padding: 5px;
     width: 20px;
     position: absolute;
     bottom: 1px;
-    margin: 20px;
+    margin-left: 20px;
     
    
 }
 
-.linea2{
+.linea2 {
     background-color: rgba(217, 217, 217, 1);
-    height: 1200px;
+    height: 100%;
     padding: 5px;
     width: 20px;
     position: absolute;
     left: 50px;
-    bottom: 1px;
-    
-    
+    bottom: 1px;   
 }
 
 
-h1{
+
+
+h1 {
     transform: translate(120px);
     font-family: Limelight;
     width: 250px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin-top: 40px;
-    font-size: 28px;
+    font-size: 38px;
 }
 
-span{
+span {
   font-family: Just Another Hand;
   color: rgb(255, 255, 255);
   font-weight: normal;
@@ -59,7 +59,9 @@ span{
 }
 
 
-main{
+
+
+main {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -68,32 +70,32 @@ main{
     transform: translate(500px);
 }
 
-h2{
-    font-size: 50px;
+h2 {
+    font-family: miFuentePath;
+    font-size: 25px;
     color: rgb(255, 255, 255);
-    transform: translate(20px);
+    margin-left: 150px;
     width: 700px;
-    
 }
 
-.us{
+.us {
+    font-family: miFuentePath;
+    font-size: 25px;
     color: rgb(255, 255, 255);
-    font-size: 40px;
-   position: absolute;
-   right: 120%;
-  
+    position: absolute;
+    right: 120%; 
 }
 
-.contraseña{
+.contraseña {
+    font-family: miFuentePath;
+    font-size: 25px;
     color: rgb(255, 255, 255);
-    font-size: 40px;
-   position: absolute;
-   right: 120%;
-   top: 52%;
-  
+    position: absolute;
+    right: 120%;
+    top: 52%; 
 }
 
-input{
+input {
     font-size: 40px;
     margin: 10px;
    padding-left: 40px;
@@ -101,35 +103,35 @@ input{
 }
 
 
-.imagen{
+.imagen {
   width: 30px;
   position: absolute;
   bottom: 60%;
-  left: 20px;
-  
+  left: 20px; 
 }
 
 .cont {
-    width: 30px;
+    width: 10px;
     position: absolute;
     bottom: 80px;
     left: 20px;
-    
+    height: 20px;   
 }
 
-::placeholder{
+::placeholder {
+    font-family: miFuentePath;
+    font-size: 30px;
     text-align: center;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
-.btn{
+.btn {
     width:220px;
     border-radius: 10px;
     font-size: 30px;
 }
 
-.btn2{
+.btn2 {
   position: absolute;
   left: 260px;
   top: 197px;
@@ -142,52 +144,56 @@ input{
 aside {
     margin-top: 40px;
     transform: translate(600px);
-   
-
 }
 
-aside a{
+aside a {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
 
-aside h4{
+aside h4 {
     line-height: 6;
     color: rgb(255, 255, 255);
    font-size: 20px;
 }
 
-.contenedor{
+.contenedor {
     display: grid;
     grid-template: repeat(3, 80px 40px 60px) / 100px 200px 300px;
-    gap: 20px;
-   
+    gap: 20px;  
 }
 
-.container img{
+.container img {
     width: 50px;
-   transform: translateY(-25px);
-   
+   transform: translateY(-25px);   
 }
 
-.titulo1 {
-    font-family: miFuentePath;
-    font-size: 30px;
-}
-
-
-.us {
-    font-family: miFuentePath;
-    font-size: 30px;
-}
-
-.contraseña {
-    font-family: miFuentePath;
-    font-size: 30px;
-}
-
-.titulo1 {
+h4 {
     font-family: miFuentePath;
 }
+
+#contra {
+    font-family: miFuentePath;
+}
+
+.acceso {
+    background-color: #fff;
+    font-family: miFuentePath;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: 120px;
+    border-radius: 60px;
+    padding: 1px;   
+}
+
+.acceso a {
+    color: #000;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
 
 
