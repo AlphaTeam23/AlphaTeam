@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+ }   
+    @font-face {
+    font-family: miFuentePath;
+    src: url(../fuentes/PathwayGothicOne-Regular.ttf);
 }
+
 
 body{
     background-color: #031D45;
@@ -14,11 +18,12 @@ body{
 
 .linea{
     background-color: rgba(217, 217, 217, 1);
-    height: 1230px;
+    height: 1270px;
     padding: 5px;
     width: 20px;
-   position: absolute;
-   bottom: 1px;
+    position: absolute;
+    bottom: 1px;
+    margin: 20px;
     
    
 }
@@ -29,7 +34,7 @@ body{
     padding: 5px;
     width: 20px;
     position: absolute;
-    left: 30px;
+    left: 50px;
     bottom: 1px;
     
     
@@ -164,3 +169,21 @@ aside h4{
    transform: translateY(-25px);
    
 }
+
+.titulo1 {
+    font-family: miFuentePath;
+    font-size: 30px;
+}
+
+
+.us {
+    font-family: miFuentePath;
+    font-size: 30px;
+}
+
+.contraseña {
+    font-family: miFuentePath;
+    font-size: 30px;
+}
+
+
