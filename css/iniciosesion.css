@@ -11,7 +11,6 @@
 
 body {
     background-color: #031D45;
-    overflow-x: hidden;
     overflow: hidden;
   
 }
@@ -49,6 +48,7 @@ h1 {
     font-weight: bold;
     margin-top: 40px;
     font-size: 38px;
+    text-shadow: #002c6e;
 }
 
 span {
@@ -56,6 +56,8 @@ span {
   color: rgb(255, 255, 255);
   font-weight: normal;
   margin-left: 42px;
+  bottom: 18px;
+  position: relative;
 }
 
 
@@ -74,8 +76,14 @@ h2 {
     font-family: miFuentePath;
     font-size: 25px;
     color: rgb(255, 255, 255);
-    margin-left: 150px;
-    width: 700px;
+    margin-left: 100px;
+    width: 700px;   
+}
+
+.titulo1 {
+    top: -5%;
+    position: absolute;
+    
 }
 
 .us {
@@ -83,7 +91,8 @@ h2 {
     font-size: 25px;
     color: rgb(255, 255, 255);
     position: absolute;
-    right: 120%; 
+    left: -90px; 
+    top: 44%;
 }
 
 .contraseña {
@@ -91,8 +100,8 @@ h2 {
     font-size: 25px;
     color: rgb(255, 255, 255);
     position: absolute;
-    right: 120%;
-    top: 52%; 
+    left: -100px;
+    top: 85%; 
 }
 
 input {
@@ -101,25 +110,29 @@ input {
    margin: 10px;
    width: 321px;
    height: 40px;
-   margin-left: 60px;
+   margin-left: 20px;
+   border: none;
+   bottom: -50px;
+   position: relative;
 }
 
 
 .imagen {
   width: 20px;
   position: absolute;
-  bottom: 60%;
-  left: 69px; 
+  bottom: 38%;
+  left: 50px; 
 }
 
 .cont {
     width: 20px;
     position: absolute;
-    margin-top: -40px;
-    left: 69px;   
+    left: 50px;   
+    bottom: -5%;
 }
 
 ::placeholder {
+    color: #ffffff83;
     font-family: miFuentePath;
     font-size: 30px;
     text-align: center;
@@ -133,13 +146,13 @@ input {
 }
 
 .btn2 {
-  position: absolute;
-  left: 260px;
-  top: 197px;
-  border-radius: 10px;
-   width: 220px;
-   font-size: 30px;
-   text-align: left;
+    position: absolute;
+    left: 260px;
+    top: 197px;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 30px;
+    text-align: left;
 }
 
 aside {
@@ -155,18 +168,19 @@ aside a {
 aside h4 {
     line-height: 6;
     color: rgb(255, 255, 255);
-   font-size: 20px;
+    font-size: 18px;
+    bottom: -40px;
+    position: relative;
+    transform: translateX(-23px);
 }
 
 .contenedor {
-    display: grid;
-    grid-template: repeat(3, 80px 40px 60px) / 100px 200px 300px;
-    gap: 20px;  
+    display: flex;
+    position: absolute;
 }
-
 .container img {
-    width: 50px;
-   transform: translateY(-25px);   
+    width: 20px;
+    margin: 10px;
 }
 
 h4 {
@@ -187,6 +201,9 @@ h4 {
     width: 120px;
     border-radius: 5px;
     padding: 1px;   
+    bottom: -80px;
+    position: relative;
+    margin-left: 105px;
 }
 
 .acceso a {
