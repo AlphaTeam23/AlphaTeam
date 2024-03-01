@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: miFuenteLime;
+    src: url(../fuentes/Limelight-Regular.ttf);
+}
+
+@font-face {
+    font-family: miFuenteJust;
+    src: url(../fuentes/JustAnotherHand-Regular.ttf);
+}
+
+ @font-face {
+    font-family: miFuentePath;
+    src: url(../fuentes/PathwayGothicOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: miPath2;
+    src: url(../fuentes/Pathway_Extreme.ttf);
+}
+
+
+
+body {
+    background-color: #031D45;
+    overflow: hidden;
+}
+
+.linea {
+    background-color: rgba(217, 217, 217, 1);
+    height: 100%;
+    padding: 5px;
+    width: 20px;
+    position: absolute;
+    bottom: 1px;
+    margin-left: 20px;
+    
+   
+}
+
+.linea2 {
+    background-color: rgba(217, 217, 217, 1);
+    height: 100%;
+    padding: 5px;
+    width: 20px;
+    position: absolute;
+    left: 50px;
+    bottom: 1px;   
+}
+
+
+
+
+h1 {
+    transform: translate(120px);
+    font-family: miFuenteLime;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 38px;
+    text-shadow: #002c6e;
+}
+
+span {
+  font-family: miFuenteJust;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-left: 42px;
+  bottom: 18px;
+  position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+   margin-top: 80px;
+    transform: translate(500px);
+}
+
+h2 {
+    font-family: miFuentePath;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    width: 700px;   
+}
+
+.titulo1 {
+    top: -5%;
+    position: absolute;
+    
+}
+
+.us {
+    font-family: miFuentePath;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: -90px; 
+    top: 44%;
+}
+
+.contraseña {
+    font-family: miFuentePath;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: -100px;
+    top: 85%; 
+}
+
+input {
+   background-color: #d9d9d949;
+   font-size: 40px;
+   margin: 10px;
+   width: 321px;
+   height: 40px;
+   margin-left: 20px;
+   border: none;
+   bottom: -50px;
+   position: relative;
+   padding-left: 70px;
+   font-size: 16px;
+}
+
+
+.imagen {
+  width: 20px;
+  position: absolute;
+  bottom: 38%;
+  left: 50px; 
+}
+
+.cont {
+    width: 20px;
+    position: absolute;
+    left: 50px;   
+    bottom: -5%;
+}
+
+::placeholder {
+    color: #ffffff83;
+    font-family: miFuentePath;
+    font-size: 30px;
+    font-size: 20px;   
+}
+
+.btn {
+    width:220px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.btn2 {
+    position: absolute;
+    left: 260px;
+    top: 197px;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 30px;
+    text-align: left;
+}
+
+aside {
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+aside a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+aside h4 {
+    line-height: 6;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    bottom: -40px;
+    position: relative;
+    transform: translateX(-23px);
+}
+
+.contenedor {
+    display: flex;
+    position: absolute;
+}
+.container img {
+    width: 20px;
+    margin: 10px;
+}
+
+h4 {
+    font-family: miFuentePath;
+}
+
+#contra {
+    font-family: miFuentePath;
+}
+
+.access {
+    background-color: #fff;
+    font-family: miFuentePath;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 1px;   
+    bottom: -80px;
+    position: relative;
+    margin-left: 105px;
+    color: #000;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+ul {
+    font-family: miFuentePath;
+    margin: 100px;
+    margin-top: 150px;
+   
+}
+
+li {
+    background-color: #d9d9d921;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    height: 47px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 30px;
+}
+
+
+.estudiante {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -130px;
+}
+
+.estudiante img {
+    width: 20px;
+    height: 20px;
+}
+
+.estudiante h4 {
+    font-family: miFuentePath;
+    background-color: #d9d9d957;
+    margin-right: 5px;
+    width: 80px;
+    text-align: center;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+ul img {
+    
+}
