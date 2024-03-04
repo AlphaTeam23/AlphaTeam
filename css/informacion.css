@@ -17,9 +17,9 @@ body{
     height: 1230px;
     padding: 5px;
     width: 14px;
-   position: absolute;
-   bottom: 1px;
-   left: 9px;
+    position: absolute;
+    bottom: 1px;
+    left: 9px;
     
    
 }
@@ -142,11 +142,11 @@ p{
 
 main h4{
     font-size: 40px;
-   position: absolute;
-   bottom: 80px;
-   left: 60px;
-   width: 600px;
-   color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    width: 600px;
+    color: rgb(255, 255, 255);
 }
 
 main img{
@@ -157,7 +157,7 @@ main img{
 aside{
     margin-top: 80px;
     display: flex;
-  justify-content: center;
+    justify-content: center;
     flex-flow: column;
     float: right;
     transform: translate(-350px);
