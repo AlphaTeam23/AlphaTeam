@@ -16,10 +16,9 @@ body{
     background-color: rgba(217, 217, 217, 1);
     height: 1230px;
     padding: 5px;
-    width: 14px;
+    width: 20px;
    position: absolute;
    bottom: 1px;
-   left: 9px;
     
    
 }
@@ -28,7 +27,7 @@ body{
     background-color: rgba(217, 217, 217, 1);
     height: 1200px;
     padding: 5px;
-    width: 14px;
+    width: 20px;
     position: absolute;
     left: 30px;
     bottom: 1px;
@@ -54,27 +53,7 @@ span{
   margin-left: 27px;
 }
 
-.estudiante{
-    display: flex;
-    justify-content: right;
-    transform: translateY(-109px);
-    margin-right: 30px;
-    
-}
 
-.estudiante img{
-    width: 50px;
-    height: 50px;
-    margin: -20px;
-}
-
-.estudiante h4{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    margin-right: 25px;
-    padding: 5px;
-    background-color: rgba(217, 217, 217, 33%);
-}
 
 header ul{
     margin-left: 70px;
@@ -82,35 +61,29 @@ header ul{
 
 
 
-ul li{
+nav ul li{
     margin: 20px;
-   
+    padding: 5px;
+    background-color: rgba(217, 217, 217, 12%);
+    width: 25%;
 }
 
 li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    /* padding: 5px;
-    background-color: rgba(217, 217, 217, 12%); */
-}
-
-nav ul li{
-    padding: 5px;
-    background-color: rgba(217, 217, 217, 12%);
-    width: 30%;
    
 }
 
 li{
     list-style: none;
-   font-size: 25px;
+   font-size: 20px;
 }
 
 li img{
     float: left;
-   width: 34px;
+   width: 29px;
     margin-right: 10px;
-    
+   
 }
 
 h2{
@@ -129,29 +102,33 @@ main{
     "figure";
     grid-template-columns: 2fr 6fr 4fr;
     grid-template-rows: 3rem;
-    margin: 0 34rem;
+    margin: 0 30rem;
    transform: translateY(-400px);
 }
 
 p{
     width: 500px;
     color: rgb(255, 255, 255);
-    font-size: 17px;
+    font-size: 18px;
     text-align: justify;
+   margin: 40px;
+  transform: translate(-135%);
+  
 }
 
 main h4{
-    font-size: 40px;
-   position: absolute;
-   bottom: 80px;
-   left: 60px;
+    font-size: 34px;
+    text-align: center;
    width: 600px;
    color: rgb(255, 255, 255);
+   transform: translate(-70px);
+  
 }
 
 main img{
     width: 300px;
-   
+   position: absolute;
+   left: 115%;
 }
 
 aside{
@@ -163,19 +140,40 @@ aside{
     transform: translate(-350px);
 }
 
-aside img{
+.contenedor{
+   display: flex;
+  
+  transform: translateY(-200px);
    
 }
 
-aside li{
-    color: rgb(255, 255, 255);
+.cont{
+    display: flex;
+    flex-direction: column-reverse;
+    transform: translate(-200px);
+   
+}
+
+.cont img{
+    width: 40px;
+    margin: -10px;
+  
+  
+}
+
+h6{
+    font-size: 19px;
+   margin: 10px;
+  
 }
 
 .container h4{
     float: right;
     transform: translateY(-80px);
     margin-right: 90px;
-    color: #fff;
+    color: #fffefe;
+    padding: 5px;
+    background-color: rgb(217, 217, 217, 33%);
 }
 
 .menu-btn img{
@@ -204,7 +202,7 @@ aside li{
     position: absolute;
     top: -50px;
     right: 10px;
-    background-color: #333;
+    background-color: rgba(217, 217, 217, 75%);
     color: #fff;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -227,11 +225,13 @@ aside li{
 
 .menu-items li a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
-    width: 100px;
+    font-size: 17px;
+    width: 200px;
+    text-align: center;
+   
 }
 
 .menu-items li a:hover {
@@ -244,7 +244,17 @@ aside li{
     display: block;
 }
 
+.menu-items ul img{
+    width: 17px;
+}
+
+.gestion{
+    font-size: 20px;
+    text-align: center;
+
+}
 
 .p{
     font-size: 15px;
 }
+
