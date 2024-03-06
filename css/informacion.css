@@ -1,56 +1,79 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
 }
 
-body{
+@font-face {
+    font-family: miFuenteLime;
+    src: url(../fuentes/Limelight-Regular.ttf);
+}
+
+@font-face {
+    font-family: miFuenteJust;
+    src: url(../fuentes/JustAnotherHand-Regular.ttf);
+}
+
+@font-face {
+    font-family: miFuentePath;
+    src: url(../fuentes/PathwayGothicOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: miPath2;
+    src: url(../fuentes/Pathway_Extreme.ttf);
+}
+
+
+
+body {
     background-color: #031D45;
-    overflow-x: hidden;
-   
-  
+    overflow: hidden;
 }
 
-.linea{
+.linea {
     background-color: rgba(217, 217, 217, 1);
-    height: 1230px;
-    padding: 5px;
-    width: 20px;
-   position: absolute;
-   bottom: 1px;
-    
-   
-}
-
-.linea2{
-    background-color: rgba(217, 217, 217, 1);
-    height: 1200px;
+    height: 100%;
     padding: 5px;
     width: 20px;
     position: absolute;
-    left: 30px;
     bottom: 1px;
-    
-    
+    margin-left: 20px;
+
+
+}
+
+.linea2 {
+    background-color: rgba(217, 217, 217, 1);
+    height: 100%;
+    padding: 5px;
+    width: 20px;
+    position: absolute;
+    left: 50px;
+    bottom: 1px;
 }
 
 
-h1{
+
+
+h1 {
     transform: translate(120px);
-    font-family: Limelight;
+    font-family: miFuenteLime;
     width: 250px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin-top: 40px;
-    font-size: 28px;
+    font-size: 30px;
+    text-shadow: #002c6e;
 }
 
-span{
-  font-family: Just Another Hand;
-  color: rgb(255, 255, 255);
-  font-weight: normal;
-  margin-left: 27px;
+span {
+    font-family: miFuenteJust;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    margin-left: 42px;
+    bottom: 14px;
+    position: relative;
 }
 
 
@@ -60,31 +83,44 @@ header ul{
 }
 
 
+ul {
+    font-family: miFuentePath;
+    margin: 100px;
+    margin-top: 70px;
 
-nav ul li{
+}
+
+li {
+    background-color: #d9d9d921;
+    margin: -10px;
+    width: 310px;
+    text-align: center;
+    height: 47px;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+li a {
+    color: #fff;
     margin: 20px;
-    padding: 5px;
-    background-color: rgba(217, 217, 217, 12%);
-    width: 25%;
-}
-
-li a{
+    font-size: 30px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-   
+    bottom: 40px;
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    left: 40px;
 }
 
-li{
-    list-style: none;
-   font-size: 20px;
+li img {
+    display: flex;
+    justify-content: flex-start;
+    bottom: -10px;
+    position: relative;
+    margin: 20px;
 }
 
-li img{
-    float: left;
-   width: 29px;
-    margin-right: 10px;
-   
-}
+
 
 h2{
     font-size: 20px;
@@ -92,6 +128,9 @@ h2{
     margin-right: 180px;
     transform: translateY(-30px);
     color: rgb(255, 255, 255);
+    font-family: miFuentePath;
+    font-weight: normal;
+    
     
 }
 
@@ -103,7 +142,7 @@ main{
     grid-template-columns: 2fr 6fr 4fr;
     grid-template-rows: 3rem;
     margin: 0 30rem;
-   transform: translateY(-400px);
+   transform: translateY(-400px); 
 }
 
 p{
@@ -122,6 +161,8 @@ main h4{
    width: 600px;
    color: rgb(255, 255, 255);
    transform: translate(-70px);
+ font-family: miFuentePath;
+ font-weight: normal;
   
 }
 
@@ -168,6 +209,8 @@ h6{
 }
 
 .container h4{
+    font-family: miFuentePath;
+    font-weight: normal;
     float: right;
     transform: translateY(-80px);
     margin-right: 90px;
@@ -254,7 +297,35 @@ h6{
 
 }
 
-.p{
+.gestion img {
+    float: right;
+    width: 19px;
+}
+
+.p {
     font-size: 15px;
 }
 
+.informacion {
+     margin: 5px;
+    text-align: center; 
+}
+
+.informacion li {
+     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    
+    
+   
+}
+
+.informacion img {
+    width: 30px;
+    
+    
+    
+   
+    
+}
