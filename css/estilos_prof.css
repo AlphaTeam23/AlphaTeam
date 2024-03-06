@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: miFuenteLime;
+    src: url(../fuentes/Limelight-Regular.ttf);
+}
+
+@font-face {
+    font-family: miFuenteJust;
+    src: url(../fuentes/JustAnotherHand-Regular.ttf);
+}
+
+ @font-face {
+    font-family: miFuentePath;
+    src: url(../fuentes/PathwayGothicOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: miPath2;
+    src: url(../fuentes/Pathway_Extreme.ttf);
+}
+
+
+
+body {
+    background-color: #031D45;
+    overflow: hidden;
+}
+
+.linea {
+    background-color: rgba(217, 217, 217, 1);
+    height: 100%;
+    padding: 5px;
+    width: 20px;
+    position: absolute;
+    bottom: 1px;
+    margin-left: 20px;
+    
+   
+}
+
+.linea2 {
+    background-color: rgba(217, 217, 217, 1);
+    height: 100%;
+    padding: 5px;
+    width: 20px;
+    position: absolute;
+    left: 50px;
+    bottom: 1px;   
+}
+
+h1 {
+    transform: translate(120px);
+    font-family: miFuenteLime;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 35px;
+    text-shadow: #002c6e;
+}
+
+span {
+  font-family: miFuenteJust;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-left: 42px;
+  bottom: 14px;
+  position: relative;
+}
+
+ul {
+    font-family: miFuentePath;
+    margin: 100px;
+    margin-top: 70px;
+   
+}
+
+li {
+    background-color: #d9d9d921;
+    margin: -10px;
+    width: 310px;
+    text-align: center;
+    height: 47px;
+    list-style-type: none;   
+}
+
+li a {
+    color: #fff;
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    bottom: 40px;
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    left: 40px;
+}
+
+li img {
+   display: flex;
+   justify-content: flex-start;
+   bottom: -10px;
+   position: relative;
+   margin: 20px;
+}
+
+.profesor {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -650px;
+    margin-right: 20px;
+}
+
+.profesor img {
+    width: 20px;
+    height: 20px;
+}
+
+.profesor h4 {
+    font-family: miFuentePath;
+    background-color: #d9d9d957;
+    margin-right: 5px;
+    width: 80px;
+    text-align: center;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.profesor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ .preguntas_container h3 {
+    font-family: miFuentePath;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 150px;
+} 
+
+ 
+.preguntas_container {
+    color: #fff;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.preguntas h5 {
+    font-family: miFuentePath;
+    margin-left: 120px;
+    bottom: -100px;
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.preguntas p {
+    font-family: miFuentePath;
+    display: none;
+    margin-top: 20px;
+    color: #fff;
+}
+
+legend {
+    font-family: miFuentePath;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    width: 800px;
+    margin-left: 450px;
+    margin-top: 120px;
+}
+
+label {
+    font-family: miFuentePath;
+    color: #fff;
+    font-size: 20px;
+    margin: 15px;
+    
+    
+}
+
+.boton {
+    margin: 15px;
+    font-size: 15px;
+}
+
+.tabla1 {
+    color: #fff;
+    font-family: miFuentePath;
+    margin-left: 470px;
+    margin-top: 10px;
+}
+
+.tabla2 {
+    color: #fff;
+    font-family: miFuentePath;
+}
+
+h4 {
+    color: #fff;
+    font-family: miFuentePath;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.info_estudiante {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 22px;
+    margin-left: 300px;
+}
+
+.tareas h3 {
+    color: #fff;
+    font-family: miFuentePath;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 95px;
+}
+
+
+.foro_tareas_examenes li {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 5px;
+    justify-content: flex-start;
+}
+
+.foro_tareas_examenes {
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
+li .foro_tareas {
+    font-size: 20px;
+    
+}
+
+.entregas {
+    margin-top: -110px;
+}
+
+
+
+
+

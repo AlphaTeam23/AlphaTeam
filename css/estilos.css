@@ -81,7 +81,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 200px;
-   margin-top: 80px;
+    margin-top: 80px;
     transform: translate(500px);
 }
 
@@ -231,7 +231,7 @@ h4 {
 ul {
     font-family: miFuentePath;
     margin: 100px;
-    margin-top: 70px;
+    margin-top: 120px;
    
 }
 
@@ -285,6 +285,7 @@ li img {
     text-align: center;
     height: 100%;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .profesor {
