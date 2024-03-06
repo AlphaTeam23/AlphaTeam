@@ -177,8 +177,10 @@ li img {
 .tit_pagina {
     
     color: #fff;
-
-   
+    position: absolute;
+    top: 10%;
+    left: 150%;
+    transform: translate(-10%, -1000%);
   }
 
 
