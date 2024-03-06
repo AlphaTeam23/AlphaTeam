@@ -24,8 +24,6 @@
     src: url(../fuentes/Pathway_Extreme.ttf);
 }
 
-
-
 body {
     background-color: #031D45;
     overflow: hidden;
@@ -52,9 +50,6 @@ body {
     left: 50px;
     bottom: 1px;   
 }
-
-
-
 
 h1 {
     transform: translate(120px);
@@ -85,14 +80,10 @@ main {
     transform: translate(500px);
 }
 
-
-
 .titulo1 {
     top: -5%;
-    position: absolute;
-    
+    position: absolute; 
 }
-
 
 input {
    background-color: #d9d9d9c0;
@@ -107,7 +98,6 @@ input {
    padding-left: 70px;
    font-size: 16px;
 }
-
 
 .imagen {
   width: 20px;
@@ -166,7 +156,6 @@ li img {
    margin: 20px;
 }
 
-
 .admin {
     color: #fff;
     display: flex;
@@ -182,8 +171,6 @@ li img {
     left: 150%;
     transform: translate(-10%, -1000%);
   }
-
-
 
 .admin img {
     width: 20px;
