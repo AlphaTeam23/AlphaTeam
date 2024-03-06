@@ -174,13 +174,11 @@ li img {
     margin-top: -100px;
 }
 
-.adm {
+.tit_pagina {
     
     color: #fff;
-    position: absolute;
-    top: 10%;
-    left: 150%;
-    transform: translate(-10%, -2500%);
+
+   
   }
 
 
