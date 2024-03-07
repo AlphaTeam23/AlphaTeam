@@ -163,14 +163,6 @@ li img {
     margin-top: -100px;
 }
 
-.tit_pagina {
-    
-    color: #fff;
-    position: absolute;
-    top: 10%;
-    left: 150%;
-    transform: translate(-10%, -1000%);
-  }
 
 .admin img {
     width: 20px;
@@ -186,6 +178,109 @@ li img {
     height: 100%;
     text-transform: uppercase;
 }
+
+/*PARA PAGINA DE APROBACIONES*/
+.titapr_pagina {
+    
+    color: #fff;
+    position: absolute;
+    top: -400px;
+    left: 0px;
+    transform: translate(-10%, -1000%);
+  }
+
+  .barra {
+    position: absolute;
+    top: -460px;
+    left: 4%;
+    transform: translate(-10%, -100%);
+    width: 1000px;
+    height: 100px;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+  }
+
+  .btcargar {
+    
+    top: 0px;
+    height: 20px;
+  }
+
+  .datos {
+    border-color: #979393;
+    background-color: #ffffff83;
+    color: #0d0c0c;
+    position: absolute;
+    top: 240px;
+    left: 427px;
+    height: 20px;
+    width: 935px;
+    }
+
+  .enviar{
+    position: absolute;
+    bottom: 20px;
+    left: 60%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    padding: 10px 20px;
+    display: flex;
+    align-content: center;
+  }
+
+  .aprobar{
+    position: absolute;
+    bottom: 0px;
+    top: 4px;
+    left: 91%;
+    width: auto;
+    transform: translateX(-50%);
+   
+
+  }
+
+  /*PARA PAGINA ADMINISTRACION DE CURSO*/
+.titcurs_pagina {
+    
+    color: #fff;
+    position: absolute;
+    top: -400px;
+    left: 0px;
+    transform: translate(-10%, -1000%);
+  }
+
+
+  .referencia {
+    top: 0px;
+    height: 20px;
+    width: 10px;
+  }
+
+  .buscar {
+    display: flex;
+    align-self: flex-start;
+    left: 300px;
+    top: 0px;
+    height: 20px;
+    width: 30%;
+  }
+
+  .datoscurs {
+    border-color: #979393;
+    background-color: #ffffff83;
+    color: #0d0c0c;
+    position: absolute;
+    top: 280px;
+    left: 427px;
+    height: 20px;
+    width: 935px;
+    }
+
+
+
 
 
 

@@ -67,13 +67,15 @@
     </header>
     <main>
         <section>
-            <div class="tit_pagina">
+            <div class="titapr_pagina">
                 <h4>APROBACION</h4>
             </div>
 
             <form class="barra">
                 <fieldset>
                     <legend>PUBLICACION DE CALIFICACIONES</legend>
+
+
 
 
                     <label for="curso">Curso</label>
@@ -123,11 +125,14 @@
 
                     </select>
 
+                    <input type="button" class="btcargar" name="cargar" value="Cargar">
+
+                    
+
             
                 </fieldset>
 
-                <input type="button" name="cargar" value="Cargar">
-                <input type="reset" value="Cancelar">
+
 
 
                 
@@ -135,7 +140,7 @@
         </section>
     </main>
 
-    <table border="1">
+    <table class="datos" border="1">
         <thead>
           <tr>
             <th>Profesor</th>
@@ -154,12 +159,12 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td><input type="checkbox" id="aprobar:"></td>
+            <td>Ver Calificaciones</td>
+            <td><input type="checkbox" class="aprobar" id="aprobar:"></td>
           </tr>
         </tbody>
       </table>
-      <input type="button" name="enviar" value="Enviar">
+      <input type="button" class="enviar" name="enviar" value="Enviar">
 
 
 
