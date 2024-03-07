@@ -9,6 +9,13 @@
 <body>
     <header>
         <h1>ALPHA TEAM <span>Educar es redimir</span></h1>
+
+        <div class="linea">
+
+        </div>
+        <div class="linea2">
+    
+        </div>
     </header>
 
     <main>
@@ -19,27 +26,48 @@
             <figure>
                 <img src="imagenes/profesor.png" alt="profesor">
             </figure>
-        </div>
+            </div>
+            <div class="arrow_back">
+              <figure>
+                <img src="imagenes/bx-arrow-back.svg" alt="">
+            </figure>  
+            </div>
+            
+            
 
-            <form class="">
-                <h3>Foro</h3>
+            <form class="correcion_tareas">
+                <h3>Foro del tema 1</h3>
+                <h4 class="h4_foro">En este foro vamos a interactuar sobre la vida de Trujillo, específicamente, ¿cuántos años gobernó en la República Dominicana y por qué lo mataron?</h4>
                 <p>NOTA: Su respuesta tambien puede ser entregada en un documento de Word o Pdf en el apartado de mas abajo...</p>
-                <h4>Responda:</h4>
-                <h4>¿Quien fue Trujillo y por que lo mataron?</h4>
-                    <textarea name="foro" id="foro" cols="100" rows="10" maxlength="400" placeholder="Escriba aqui su respuesta."></textarea>
+                    <textarea name="foro" id="foro" cols="100" rows="10" placeholder="Escriba aqui su respuesta."></textarea>
                     <br><br><br>
-                    <fieldset>
-                    <label for="archivo">CARGUE AQUI SU DOCUMENTO O ARCHIVO</label>
+
+                    <fieldset class="cargar_archivo">
+                        <legend class="cargar">CARGUE AQUI SU DOCUMENTO O ARCHIVO</legend>
+                    <label for="archivo"></label>
                     <br><br>
-                    <input type="file" id="archivo">
+                    <input type="file" id="archivo" >
                     </fieldset>
                     <br>
-                    <input type="submit" value="Enviar tarea">
-                    <input type="reset" value="Borrar todo">
+                    <input class="botones_be" type="submit" value="Enviar tarea">
+                    <input class="botones_be" type="reset" value="Borrar tarea">
                     
             </form>
+
+            <div class="profesor">
+            <h4>PROFESOR</h4>
+            
+            <figure>
+                <img src="imagenes/profesor.png" alt="profesor">
+            </figure>
+            </div>
+            <div class="arrow_back">
+              <figure>
+                <a href="p_correcciontareas.html">
+                <img src="imagenes/bx-arrow-back.svg" alt=""></a>
+            </figure>  
+            </div>
         </section>
     </main>
-
 </body>
 </html>
