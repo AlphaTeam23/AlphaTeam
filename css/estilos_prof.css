@@ -381,6 +381,28 @@ textarea {
     position: relative;
 }
 
+.plan_docente {
+    font-weight: normal;
+    text-align: center;
+}
+
+#planificacion {
+    color: #fff;
+}
+
+.planificacion_docente {
+    margin-top: 125px;
+}
+
+.enviar_borrar {
+    font-family: miFuentePath;
+    width: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
 
 
 

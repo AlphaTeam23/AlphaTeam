@@ -52,19 +52,10 @@
                 </figure>
             </div>
             <div class="adm">
-                <h4>BUSCAR PLANIFICACION</h4>
-                
-                <figure>
-                    <img src="imagenes/setting.png" height="25px" alt="adm">
-                </figure>
-                <figure>
-                    <a href="a_crearcursos.html"><img src="imagenes/bxs-folder-plus.svg" alt="Crear">CARGAR PLANIFICACION</a>
-                </figure>
-
             </div>
-            <form>
+            <form class="planificacion_docente">
                 <fieldset>
-                    <legend>Cargar  Planificacion</legend>
+                    <legend class="plan_docente">Cargar  Planificacion</legend>
                     <label for="curso">Nivel</label>
                         <select name="curso" id="curso" required>
                             <option value="">- Elija un curso -</option>
@@ -111,7 +102,7 @@
                         <option value=""></option>
                         <option value=""></option>
                     </select>
-                   
+                   <br><br>
                     <label for="period">Periodo</label>
                     <select name="period" id="period" required>
                         <option value="">- Elija un periodo -</option>
@@ -125,8 +116,8 @@
 
                 </fieldset>
 
-                <input type="button" name="enviar" value="Enviar">
-                <input type="reset" value="Cancelar">
+                <input class="enviar_borrar" type="button" name="enviar" value="Enviar">
+                <input class="enviar_borrar" type="reset" value="Cancelar">
 
             </form>
         </section>
