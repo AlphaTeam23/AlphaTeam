@@ -219,6 +219,7 @@ label {
     color: #fff;
     font-family: miFuentePath;
     font-weight: normal;
+    text-align: center;
 }
 
 h4 {
@@ -252,21 +253,21 @@ h4 {
 
 .foro_tareas_examenes li {
     background-color: transparent;
-    display: flex;
+    display: flex; 
     justify-content: center;
     width: 200px;
-    margin: 5px;
-    justify-content: flex-start;
+    text-transform: uppercase;
 }
 
 .foro_tareas_examenes {
-    margin-left: 400px;
+    margin-left: 390px;
     margin-top: 60px;
+    display: flex;
+    
 }
 
 li .foro_tareas {
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
 .entregas {
@@ -361,6 +362,7 @@ textarea {
     font-size: 17px;
     left: 170px;
     position: relative;
+    margin: 2px;
 }
 
 
@@ -402,6 +404,55 @@ textarea {
     margin-top: 10px;
 }
 
+h4 .listado {
+    font-weight: normal;
+}
+
+
+#dia {
+    margin-left: 10px;
+}
+
+#day {
+    margin-left: 52px;
+}
+
+#dai {
+    margin-left: 82px;
+}
+
+#dias {
+    margin-left: 10px;
+}
+
+.preguntas_tareas h3 {
+    color: #fff;
+    font-family: miFuentePath;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.preguntas_tareas p {
+    color: #fff;
+    font-family: miFuentePath;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow_back2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px;
+}
+
+.arrow_back2 img {
+    width: 18px;
+    height: 18px;
+}
 
 
 
