@@ -3,47 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examenes Proximos</title>
+    <title>Tareas</title>
     <link rel="stylesheet" href="css/estilos_prof.css">
 </head>
 <body>
     <header>
         <h1>ALPHA TEAM <span>Educar es redimir</span></h1>
-
-        <div class="linea">
-
-        </div>
-        <div class="linea2">
     
-        </div>
-
-        <div class="arrow_back">
-              <figure>
-                <a href="p_correcciontareas.html">
-                <img src="imagenes/bx-arrow-back.svg" alt=""></a>
-            </figure>  
+            <div class="linea">
+    
             </div>
+            <div class="linea2">
+    
+            </div>
+        <nav> 
+            <ul>
+                <li><img src="imagenes/bx-notepad.svg" alt="nota">
+                    <a href="p_calificaciones.html">CALIFICACIONES
+                </a></li>
+                <li><img src="imagenes/bxs-pencil.svg" alt="visto">
+                    <a href="p_examenesprox.html">EXAMENES PROXIMOS
+                </a></li>
+                <li><img src="imagenes/bx-calendar.svg" alt="calendario">
+                    <a href="p_calendarioescolar.html">CALENDARIO ESCOLAR
+                </a></li>
+                <li><img src="imagenes/bxs-graduation.svg" alt="graduacion">
+                    <a href="p_informacionestudiante.html">INFORMACION ESTUDIANTE
+                </a></li>
+                <li><img src="imagenes/bxs-book-content.svg" alt="evaluar">
+                    <a href="p_cargarplanificacion.html">PLANIFICACION
+                </a></li>
+                <li><img src="imagenes/bx-help-circle.svg" alt="ayuda">
+                    <a href="p_ayuda.html">AYUDA
+                </a></li>
+                <li><img src="imagenes/bx-log-out.svg" alt="cerrar">
+                    <a href="index.html">CERRAR SESION
+                </a></li> 
+        </ul>
+        </nav>
+        </nav>
     </header>
 
     <main>
         <section>
-            
-        <div class="evaluaciones">
-            <h4>CIENCIAS SOCIALES</h4>
-            <h6><a href="https://forms.gle/mfpRJMj33cYpicqV9">CUESTIONARIO SOBRE INDEPENDENCIDOMINICANA</a></h6>
-    
-        </div>
-                <div class="cont2">
-                    <h4>LENGUA ESPANOLA</h4>
-                    <h6><a href="https://forms.gle/TRgxNgZCvkgTvpaG7">QUIZ SOBRE DIPTONGO</a></h6>
-                </div>
-                <div class="profesor">
-                    <h4>PROFESOR</h4>
-                    <figure>
-                        <img src="imagenes/profesor.png" alt="profesor">
-                    </figure>
-                 </div>
+            <div class="profesor">
+                <h4>PROFESOR</h4>
+                
+                <figure>
+                    <img src="imagenes/profesor.png" alt="profesor">
+                </figure>
+            </div>
 
+            <div class="evaluaciones">
+                <p>Aquí te dejo dos cuestionarios. Uno de Ciencias Sociales sobre la vida de Rafael Leónidas Trujillo, y otro de Lengua Española. Mas abajo tienes información sobre desde y hasta cuando permitirán ser llenados. ¡Suerte!</p>
+                <h4>CIENCIAS SOCIALES</h4>
+                <h6><a href="https://forms.gle/mfpRJMj33cYpicqV9" target="_blank">CUESTIONARIO SOBRE INDEPENDENCIA DOMINICANA</a></h6>
     
+            </div>
+            <div class="cont2">
+                <h4>LENGUA ESPANOLA</h4>
+                <h6><a href="https://forms.gle/TRgxNgZCvkgTvpaG7" target="_blank">QUIZ SOBRE DIPTONGO</a></h6>
+            </div>
+
+            <div class="entregas">
+                <form>
+                    <label for="dia">Permitir entregas desde</label>
+                    <input type="date" id="dia">
+                    <label for="hora"></label>
+                    <input type="time" id="hora">
+                    <label for="hab">Habilitar</label>
+                    <input type="checkbox" id="hab">
+                    <br><br>
+                    <label for="day">Fecha de entrega</label>
+                    <input type="date" id="day">
+                    <label for="hor"></label>
+                    <input type="time" id="hor">
+                    <label for="habil">Habilitar</label>
+                    <input type="checkbox" id="habil">
+                    <br><br>
+                    <label for="dai">Fecha limite</label>
+                    <input type="date" id="dai">
+                    <label for="horas"></label>
+                    <input type="time" id="horas">
+                    <label for="habili">Habilitar</label>
+                    <input type="checkbox" id="habili">
+                    <br><br>
+                    <label for="dias">Recordarme calificar en</label>
+                    <input type="date" id="dias">
+                    <label for="horass"></label>
+                    <input type="time" id="horass">
+                    <label for="habi">Habilitar</label>
+                    <input type="checkbox" id="habi">
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

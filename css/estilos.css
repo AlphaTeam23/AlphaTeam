@@ -88,6 +88,7 @@ main {
 h2 {
     font-family: miFuentePath;
     font-size: 25px;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     margin-left: 100px;
     width: 700px;   
@@ -102,6 +103,7 @@ h2 {
 .us {
     font-family: miFuentePath;
     font-size: 25px;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     position: absolute;
     left: -90px; 
@@ -111,6 +113,7 @@ h2 {
 .contraseña {
     font-family: miFuentePath;
     font-size: 25px;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     position: absolute;
     left: -100px;
@@ -202,10 +205,12 @@ aside h4 {
 
 h4 {
     font-family: miFuentePath;
+    font-weight: normal;
 }
 
 #contra {
     font-family: miFuentePath;
+    font-weight: normal;
 }
 
 .access {

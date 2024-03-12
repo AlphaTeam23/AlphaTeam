@@ -454,6 +454,45 @@ h4 .listado {
     height: 18px;
 }
 
+.evaluaciones h4 {
+    font-family: miFuentePath;
+    font-weight: normal;
+    margin-top: 25px;
+}
 
+.evaluaciones a {
+    display: flex;
+    justify-content: center;
+    margin-left: 165px;
+    padding: 20px;
+    color: rgb(39, 59, 240);
+}
 
+.evaluaciones p {
+    font-family: miFuentePath;
+    font-weight: normal;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 130px;
+    width: 850px;
+    margin-left: 440px;
+}
 
+.cont2 h4 {
+    font-family: miFuentePath;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.cont2 a {
+    display: flex;
+    justify-content: center;
+    margin-left: 195px;
+    padding: 20px;
+    color: rgb(39, 59, 240);
+}
+
+.entregas {
+    margin-top: -110px;
+}
