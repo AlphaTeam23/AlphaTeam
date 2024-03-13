@@ -71,7 +71,7 @@
                     <legend>BUSCAR RECORD DE NOTA</legend>
 
                     <label for="busqueda">MATRICULA</label>
-                    <input type="search" id="busqueda" placeholder="1000045">
+                    <input type="search" class="referencia" id="busqueda" placeholder="1000045">
                     <label for="curso">CURSO</label>
                         <select name="curso" id="curso" required>
                             <option value="">- Elija un curso -</option>
@@ -115,12 +115,13 @@
                         <option value="">2023-2024</option>
                     </select>
 
+                    <input type="button" class="btcargar" name="cargar" value="Cargar">
 
             
                 </fieldset>
 
-                <input type="button" name="cargar" value="Cargar">
-                <input type="reset" value="Cancelar">
+    
+            
 
 
                 
@@ -128,7 +129,7 @@
         </section>
     </main>
 
-    <table border="1" >
+    <table class="datosestudiante" border="1" >
         <thead>
             <tr>
                 <th>NOMBRE: </th>
@@ -148,9 +149,9 @@
         </thead>
     </table>
 
-    <table border="1">
+    <table class="datosrecord1" border="1">
         <thead> 
-            <p>PRIMER SEMESTRE</p>
+            <th>PRIMER SEMESTRE</th>
           <tr>
             <th>ASIGNATURA</th>
             <th>TAREA</th>
@@ -222,9 +223,9 @@
         </tbody>
       </table>
 
-      <table border="1">
+      <table class="datosrecord2" border="1">
         <thead> 
-            <p>SEGUNDO SEMESTRE</p>
+          <th>SEGUNDO SEMESTRE</th>
           <tr>
             <th>ASIGNATURA</th>
             <th>TAREA</th>

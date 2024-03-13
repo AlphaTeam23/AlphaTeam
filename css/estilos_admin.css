@@ -302,15 +302,54 @@ li img {
 
       /*Planificacion Docente*/
      section {
-      width: 900px;
+    width: 950px;
      color: #fff;
      display: flex;
-     margin-top: -700px;
-     left: -350px;
-     
+     margin-top: -870px;
+     margin-left: -75px;
+      
      } 
 
+     .referencia {
+      top: 0px;
+      height: 20px;
+      width: 10px;
+    }
 
+
+    /* Record*/
+    .datosestudiante {
+      border-color: #979393;
+      background-color: #ffffff83;
+      color: #0d0c0c;
+      position: absolute;
+      top: 280px;
+      left: 427px;
+      height: 20px;
+      width: 945px;
+      }
+
+      .datosrecord1 {
+        border-color: #979393;
+        background-color: #ffffff83;
+        color: #0d0c0c;
+        position: absolute;
+        top: 310px;
+        left: 427px;
+        height: 20px;
+        width: 945px;
+        }
+
+        .datosrecord2 {
+          border-color: #979393;
+          background-color: #ffffff83;
+          color: #0d0c0c;
+          position: absolute;
+          top: 510px;
+          left: 427px;
+          height: 20px;
+          width: 945px;
+          }
     
 
 
