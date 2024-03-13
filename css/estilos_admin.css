@@ -275,7 +275,7 @@ li img {
     background-color: #ffffff83;
     color: #0d0c0c;
     position: absolute;
-    top: 280px;
+    top: 285px;
     left: 427px;
     height: 20px;
     width: 935px;
@@ -300,10 +300,18 @@ li img {
       }
 
 
+      /*Planificacion Docente*/
+     section {
+      width: 900px;
+     color: #fff;
+     display: flex;
+     margin-top: -700px;
+     left: -350px;
+     
+     } 
 
 
-
-      /*Priueba*/
+    
 
 
 
