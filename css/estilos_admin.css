@@ -350,6 +350,17 @@ li img {
           height: 20px;
           width: 945px;
           }
+
+          .datosusuarios {
+            border-color: #979393;
+            background-color: #ffffff83;
+            color: #0d0c0c;
+            position: absolute;
+            top: 280px;
+            left: 425px;
+            height: 20px;
+            width: 950px;
+            }
     
 
 
