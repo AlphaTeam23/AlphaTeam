@@ -28,7 +28,6 @@
 
 body {
     background-color: #031D45;
-    overflow: hidden;
 }
 
 .linea {
@@ -172,7 +171,6 @@ li img {
 .preguntas p {
     font-family: miFuentePath;
     display: none;
-
     position: relative;
     color: #fff;
 }
@@ -395,6 +393,10 @@ textarea {
 
 .planificacion_docente {
     margin-top: -502px;
+}
+
+.prof5 {
+    margin-left: 42px;
 }
 
 .enviar_borrar {
