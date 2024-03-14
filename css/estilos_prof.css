@@ -28,7 +28,6 @@
 
 body {
     background-color: #031D45;
-    overflow: hidden;
 }
 
 .linea {
@@ -172,7 +171,6 @@ li img {
 .preguntas p {
     font-family: miFuentePath;
     display: none;
-
     position: relative;
     color: #fff;
 }
@@ -397,6 +395,10 @@ textarea {
     margin-top: -502px;
 }
 
+.prof5 {
+    margin-left: 42px;
+}
+
 .enviar_borrar {
     font-family: miFuentePath;
     width: 50px;
@@ -618,3 +620,13 @@ button {
     margin-top: -502px;
 }
 
+.regresar {
+    margin-left: 80px;
+    margin-top: -110px;
+    
+}
+
+.regresar img {
+    width: 18px;
+    height: 18px;
+}
