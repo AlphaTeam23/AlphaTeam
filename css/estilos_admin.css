@@ -5,62 +5,61 @@
 }
 
 @font-face {
-    font-family: miFuenteLime;
-    src: url(../fuentes/Limelight-Regular.ttf);
+  font-family: miFuenteLime;
+  src: url(../fuentes/Limelight-Regular.ttf);
 }
 
 @font-face {
-    font-family: miFuenteJust;
-    src: url(../fuentes/JustAnotherHand-Regular.ttf);
+  font-family: miFuenteJust;
+  src: url(../fuentes/JustAnotherHand-Regular.ttf);
 }
 
  @font-face {
-    font-family: miFuentePath;
-    src: url(../fuentes/PathwayGothicOne-Regular.ttf);
+  font-family: miFuentePath;
+  src: url(../fuentes/PathwayGothicOne-Regular.ttf);
 }
 
 @font-face {
-    font-family: miPath2;
-    src: url(../fuentes/Pathway_Extreme.ttf);
+  font-family: miPath2;
+  src: url(../fuentes/Pathway_Extreme.ttf);
 }
 
 body {
-    font-family: miFuentePath;
-    background-color: #031D45;
-    overflow: hidden;
+  background-color: #031D45;
+  overflow: hidden;
 }
 
 .linea {
-    background-color: rgba(217, 217, 217, 1);
-    height: 100%;
-    padding: 5px;
-    width: 20px;
-    position: absolute;
-    bottom: 1px;
-    margin-left: 20px;
+  background-color: rgba(217, 217, 217, 1);
+  height: 100%;
+  padding: 5px;
+  width: 20px;
+  position: absolute;
+  bottom: 1px;
+  margin-left: 20px;
     
    
 }
 
 .linea2 {
-    background-color: rgba(217, 217, 217, 1);
-    height: 100%;
-    padding: 5px;
-    width: 20px;
-    position: absolute;
-    left: 50px;
-    bottom: 1px;   
+  background-color: rgba(217, 217, 217, 1);
+  height: 100%;
+  padding: 5px;
+  width: 20px;
+  position: absolute;
+  left: 50px;
+  bottom: 1px;   
 }
 
 h1 {
-    transform: translate(120px);
-    font-family: miFuenteLime;
-    width: 250px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    margin-top: 40px;
-    font-size: 30px;
-    text-shadow: #002c6e;
+  transform: translate(120px);
+  font-family: miFuenteLime;
+  width: 250px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 30px;
+  text-shadow: #002c6e;
 }
 
 span {
@@ -73,31 +72,31 @@ span {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 200px;
-    margin-top: 80px;
-    transform: translate(500px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 80px;
+  transform: translate(500px);
 }
 
 .titulo1 {
-    top: -5%;
-    position: absolute; 
+  top: -5%;
+  position: absolute; 
 }
 
 input {
-   background-color: #d9d9d9c0;
-   font-size: 40px;
-   margin: 10px;
-   width: 321px;
-   height: 40px;
-   margin-left: 20px;
-   border: none;
-   bottom: -50px;
-   position: relative;
-   padding-left: 70px;
-   font-size: 16px;
+  background-color: #d9d9d9c0;
+  font-size: 40px;
+  margin: 10px;
+  width: 321px;
+  height: 40px;
+  margin-left: 20px;
+  border: none;
+  bottom: -50px;
+  position: relative;
+  padding-left: 70px;
+  font-size: 16px;
 }
 
 .imagen {
@@ -108,168 +107,168 @@ input {
 }
 
 .cont {
-    width: 20px;
-    position: absolute;
-    left: 50px;   
-    bottom: -5%;
+  width: 20px;
+  position: absolute;
+  left: 50px;   
+  bottom: -5%;
 }
 
 ::placeholder {
-    color: #05050583;
-    font-family: miFuentePath;
-    font-size: 20px;
+  color: #05050583;
+  font-family: miFuentePath;
+  font-size: 20px;
  
 
 }
 
 
 ul {
-    font-family: miFuentePath;
-    margin: 100px;
-    margin-top: 150px;
+  font-family: miFuentePath;
+  margin: 100px;
+  margin-top: 150px;
    
 }
 
 li {
-    background-color: #d9d9d921;
-    margin: -10px;
-    width: 300px;
-    text-align: center;
-    height: 47px;
-    list-style-type: none;   
+  background-color: #d9d9d921;
+  margin: -10px;
+  width: 300px;
+  text-align: center;
+  height: 47px;
+  list-style-type: none;   
 }
 
 li a {
-    color: #fff;
-    margin: 20px;
-    font-size: 30px;
-    text-decoration: none;
-    bottom: 40px;
-    position: relative;
-    justify-content: flex-start;
-    display: flex;
-    left: 40px;
+  color: #fff;
+  margin: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  bottom: 40px;
+  position: relative;
+  justify-content: flex-start;
+  display: flex;
+  left: 40px;
 }
 
 li img {
-   display: flex;
-   justify-content: flex-start;
-   bottom: -10px;
-   position: relative;
-   margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  bottom: -10px;
+  position: relative;
+  margin: 20px;
 }
 
 .admin {
-    color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -100px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -100px;
 }
 
 
 .admin img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .admin h4 {
-    font-family: miFuentePath;
-    background-color: #d9d9d957;
-    margin-right: 5px;
-    width: 80px;
-    text-align: center;
-    height: 100%;
-    text-transform: uppercase;
+  font-family: miFuentePath;
+  background-color: #d9d9d957;
+  margin-right: 5px;
+  width: 80px;
+  text-align: center;
+  height: 100%;
+  text-transform: uppercase;
 }
 
 /*PARA PAGINA DE APROBACIONES*/
 .tit_pagina {
-    
-    color: #fff;
-    position: absolute;
-    top: -330px;
-    left: 0px;
-    transform: translate(-10%, -1000%);
-  }
+  color: #fff;
+  font-family: miFuentePath;
+  font-weight: normal;
+  position: absolute;
+  top: -330px;
+  left: 0px;
+  transform: translate(-10%, -1000%);
+  font-size: 20px;
+}
 
-  .barra {
-    position: absolute;
-    top: -400px;
-    left: 4%;
-    transform: translate(-10%, -100%);
-    width: 1000px;
-    height: 100px;
-    padding: 20px;
-    color: #fff;
-    display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-  }
+.barra {
+  position: absolute;
+  top: -400px;
+  left: 4%;
+  transform: translate(-10%, -100%);
+  width: 1000px;
+  height: 100px;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
-  .btcargar {
-    
-    top: 0px;
-    height: 20px;
-  }
+.btcargar {
+  top: 0px;
+  height: 20px;
+}
 
-  .datos {
-    border-color: #979393;
-    background-color: #ffffff83;
-    color: #0d0c0c;
-    position: absolute;
-    top: 240px;
-    left: 427px;
-    height: 20px;
-    width: 935px;
-    }
+.datos {
+  border-color: #979393;
+  background-color: #ffffff83;
+  color: #0d0c0c;
+  position: absolute;
+  top: 240px;
+  left: 427px;
+  height: 20px;
+  width: 935px;
+}
 
-  .enviar{
-    position: absolute;
-    bottom: 20px;
-    left: 60%;
-    transform: translateX(-50%);
-    font-size: 18px;
-    padding: 10px 20px;
-    display: flex;
-    align-content: center;
-  }
+.enviar{
+  position: absolute;
+  bottom: 20px;
+  left: 60%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  padding: 10px 20px;
+  display: flex;
+  align-content: center;
+}
 
-  .aprobar{
-    position: absolute;
-    bottom: 0px;
-    top: 4px;
-    left: 91%;
-    width: auto;
-    transform: translateX(-50%);
+.aprobar{
+  position: absolute;
+  bottom: 0px;
+  top: 4px;
+  left: 91%;
+  width: auto;
+  transform: translateX(-50%);
    
 
-  }
+}
 
   /*PARA PAGINA ADMINISTRACION DE CURSO*/
 .titcurs_pagina {
-    
-    color: #fff;
-    position: absolute;
-    top: -400px;
-    left: 0px;
-    transform: translate(-10%, -1000%);
-  }
+  color: #fff;
+  position: absolute;
+  top: -400px;
+  left: 0px;
+  transform: translate(-10%, -1000%);
+}
 
 
-  .referencia {
-    top: 0px;
-    height: 20px;
-    width: 10px;
-  }
+.referencia {
+  top: 0px;
+  height: 20px;
+  width: 10px;
+}
 
-  .buscar {
-    display: flex;
-    align-self: flex-start;
-    left: 300px;
-    top: 0px;
-    height: 20px;
-    width: 30%;
-  }
+.buscar {
+  display: flex;
+  align-self: flex-start;
+  left: 300px;
+  top: 0px;
+  height: 20px;
+  width: 30%;
+}
 
   .datoscurs {
     border-color: #979393;
@@ -303,11 +302,11 @@ li img {
 
       /*Planificacion Docente*/
      section {
-    width: 950px;
-     color: #fff;
-     display: flex;
-     margin-top: -870px;
-     margin-left: -75px;
+      width: 950px;
+      color: #fff;
+      display: flex;
+      margin-top: -870px;
+      margin-left: -75px;
       
      } 
 

@@ -477,9 +477,9 @@ button {
 }
 
 .camara img {
- margin: -6px;
- transform: translateY(-3px);
- width: 15px;
+    margin: -6px;
+    transform: translateY(-3px);
+    width: 15px;
 }
 
 .calificaciones_docente {
