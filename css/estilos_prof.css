@@ -336,10 +336,14 @@ h4 .listado {
     margin-top: -520px;
 }
 
-.evaluaciones h4 {
+.evaluaciones h3 {
     font-family: miFuentePath;
     font-weight: normal;
     margin-top: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 192px;
 }
 
 .evaluaciones a {
@@ -348,6 +352,7 @@ h4 .listado {
     margin-left: 165px;
     padding: 20px;
     color: rgb(39, 59, 240);
+    font-family: miFuentePath;
 }
 
 .evaluaciones p {
@@ -361,10 +366,14 @@ h4 .listado {
     margin-left: 440px;
 }
 
-.cont2 h4 {
+.cont2 h3 {
     font-family: miFuentePath;
     font-weight: normal;
     margin-top: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 192px;
 }
 
 .cont2 a {
@@ -373,6 +382,7 @@ h4 .listado {
     margin-left: 195px;
     padding: 20px;
     color: rgb(39, 59, 240);
+    font-family: miFuentePath;
 }
 
 .entregas {
@@ -494,4 +504,72 @@ button {
 .regresar img {
     width: 18px;
     height: 18px;
+}
+
+
+.inf_basica_profesor {
+    background-color: #ffffffb0;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.agregar {
+    margin-top: 100px;
+    position: relative;
+    margin-left: 20px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    width: 1050px;
+    font-size: 18px;
+    color: #000000b6;
+    font-weight: normal;
+}
+
+.agregar {
+    bottom: -10px;
+    position: relative;
+}
+
+b {
+    margin-left: 180px;
+    font-weight: normal;
+}
+
+.inf_basica_profesor img {
+    width: 40px;
+    margin-left: 700px;
+    margin-top: -50px;
+}
+
+.imagen_camara img {
+    width: 18px;
+    margin-top: -20px;
+    margin-left: 728px;
+    position: absolute;
+}
+
+.imagenes_agregar {
+    top: -8px;
+    position: relative;
+    margin-right: 20px;
+}
+
+hr {
+    color: #00000056;
+}
+
+h4 {
+    color: #000000c4;
+    font-family: miFuentePath;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 35px;
+    bottom: 35px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
 }
