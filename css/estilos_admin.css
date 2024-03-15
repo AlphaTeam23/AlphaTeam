@@ -27,8 +27,7 @@
 body {
   background-color: #031D45;
   overflow: hidden;
-  
-  
+  font-family: miFuentePath; 
 }
 
 .linea {
@@ -39,8 +38,6 @@ body {
   position: absolute;
   bottom: 1px;
   margin-left: 20px;
-    
-   
 }
 
 .linea2 {
@@ -119,16 +116,12 @@ input {
   color: #05050583;
   font-family: miFuentePath;
   font-size: 20px;
- 
-
 }
-
 
 ul {
   font-family: miFuentePath;
   margin: 100px;
-  margin-top: 150px;
-   
+  margin-top: 150px; 
 }
 
 li {
@@ -167,7 +160,6 @@ li img {
   margin-top: -100px;
 }
 
-
 .admin img {
   width: 20px;
   height: 20px;
@@ -200,7 +192,7 @@ li img {
   top: -400px;
   left: 4%;
   transform: translate(-10%, -100%);
-  width: 1000px;
+  width: 877px;
   height: 100px;
   padding: 20px;
   color: #fff;
@@ -219,57 +211,55 @@ li img {
   background-color: #ffffff83;
   color: #0d0c0c;
   position: absolute;
-  top: 240px;
-  left: 427px;
+  top: 260px;
+  left: 440px;
   height: 20px;
-  width: 935px;
+  width: 840px;
 }
 
 .enviar{
-  position: absolute;
-  bottom: 20px;
-  left: 60%;
-  transform: translateX(-50%);
-  font-size: 18px;
-  padding: 10px 20px;
-  display: flex;
-  align-content: center;
+   position: absolute;
+   bottom: 20px;
+   left: 60%;
+   transform: translateX(-50%);
+   font-size: 18px;
+   padding: 10px 20px;
+   display: flex;
+   align-content: center;
 }
 
 .aprobar{
-  position: absolute;
-  bottom: 0px;
-  top: 4px;
-  left: 91%;
-  width: auto;
-  transform: translateX(-50%);
+   position: absolute;
+   bottom: 0px;
+   top: 4px;
+   left: 91%;
+   width: auto;
+   transform: translateX(-50%);
    
-
 }
 
   /*PARA PAGINA ADMINISTRACION DE CURSO*/
 .titcurs_pagina {
-  color: #fff;
-  position: absolute;
-  top: -400px;
-  left: 0px;
-  transform: translate(-10%, -1000%);
+   color: #fff;
+   position: absolute;
+   top: -400px;
+   left: 0px;
+   transform: translate(-10%, -1000%);
 }
 
-
 .referencia {
-  top: 0px;
-  height: 20px;
-  width: 10px;
+   top: 0px;
+   height: 20px;
+   width: 10px;
 }
 
 .buscar {
-  display: flex;
-  align-self: flex-start;
-  left: 300px;
-  top: 0px;
-  height: 20px;
-  width: 30%;
+   display: flex;
+   align-self: flex-start;
+   left: 300px;
+   top: 0px;
+   height: 20px;
+   width: 30%;
 }
 
   .datoscurs {
@@ -277,22 +267,22 @@ li img {
     background-color: #ffffff83;
     color: #0d0c0c;
     position: absolute;
-    top: 285px;
-    left: 427px;
+    top: 303px;
+    left: 440px;
     height: 20px;
-    width: 935px;
+    width: 838px;
     }
 
-    .inscripcion {
-        border-color: #979393;
-        background-color: #ffffff83;
-        color: #e0dada;
-        position: absolute;
-        top: -480px;
-        left: -80px;
-        height: 20px;
-        width: 935px;
-        }
+  .inscripcion {
+    border-color: #979393;
+    background-color: #ffffff83;
+    color: #e0dada;
+    position: absolute;
+    top: -480px;
+    left: -80px;
+    height: 20px;
+    width: 850px;
+    }
 
       .inscripcion input {
         height: 20px;
@@ -304,7 +294,7 @@ li img {
 
       /*Planificacion Docente*/
      section {
-      width: 935px;
+      width: 846px;
       color: #fff;
       display: flex;
       margin-top: -870px;
@@ -326,9 +316,9 @@ li img {
       color: #0d0c0c;
       position: absolute;
       top: 280px;
-      left: 427px;
+      left: 425px;
       height: 20px;
-      width: 935px;
+      width: 845px;
       }
 
       .datosrecord1 {
@@ -337,9 +327,9 @@ li img {
         color: #0d0c0c;
         position: absolute;
         top: 310px;
-        left: 427px;
+        left: 425px;
         height: 20px;
-        width: 935px;
+        width: 845px;
         }
 
         .datosrecord2 {
@@ -347,10 +337,10 @@ li img {
           background-color: #ffffff83;
           color: #0d0c0c;
           position: absolute;
-          top: 510px;
-          left: 427px;
+          top: 530px;
+          left: 425px;
           height: 20px;
-          width: 935px;
+          width: 845px;
           }
 
           .datosusuarios {
@@ -361,7 +351,7 @@ li img {
             top: 280px;
             left: 425px;
             height: 20px;
-            width: 935px;
+            width: 847px;
             }
 
         .crear {
