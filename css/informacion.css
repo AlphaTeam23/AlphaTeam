@@ -475,6 +475,7 @@ button {
     margin: 10px;
 }
 
+
 /* miscalificaciones */
 
 .calificaciones section{
@@ -509,37 +510,73 @@ button {
 /* ayuda */
 
 .top{
-    margin-top: 180px;
-    margin-left: -500%;
+    margin-top: 200px;
+    transform: translate(-50px);
 }
 
-.preguntas{
-    margin-top: 50%;
-    display: flex;
-    flex-direction: column;
-    
-   
-}
-
-.preguntas h1{
-    font-size: 40px;
+.main{
+    position: absolute;
+    top: 400px;
+    right: 500px;
     width: 500px;
-    text-align: center;
-    margin: 60px;
-    font-family: miFuentePath;
-    font-weight: normal;
 }
 
-.pregunta1 h2{
-    font-size: 35px;
-    width: 700px;
+.main-titulo {
+    margin-top: 3em;
     text-align: center;
-    font-family: miFuentePath;
+    text-transform: uppercase;
+    
 }
 
-.pregunta1 p{
-    text-align: center;
+.tab-container p{
+    text-align: left;
+
+}
+
+
+
+.accordion-container input {
+    display: none;
+}
+
+.accordion-container .tabs {}
+
+.accordion-container .tab {
+    overflow: hidden;
+}
+
+.accordion-container .tab-container {
+    max-height: 0;
+    padding: 0 1em;
+    transition: all 0.25s;
+    
+}
+
+.accordion-container input:checked~.tab-container {
+    max-height: 100vh;
+    padding: 1em;
+    color: #ffffff
+}
+
+.accordion-container .tab-title {
+    display: flex;
+    padding: 1em;
+    cursor: pointer;
+    background: transparent;
     color: #ffffff;
-    transform: translate(100px);
-    font-family: miFuentePath;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+
+.accordion-container .tab-title:hover {
+    background: #00f57af5;
+}
+
+.accordion-container .tab-title::after {
+    content: "❯";
+    transition: all 0.25s;
+}
+
+.accordion-container input:checked+.tab-title::after {
+    transform: rotate(90deg);
 }
