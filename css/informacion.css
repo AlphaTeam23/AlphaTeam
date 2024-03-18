@@ -309,6 +309,24 @@ button {
  width: 15px;
 }
 
+
+/* contenido de lo hay que hay en el menu desplegable */
+
+.cambiode_contraseña{
+ position: absolute;
+ bottom: -120px;
+ display: flex;
+ flex-direction: column;
+}
+
+.cambiode_contraseña h2{
+    
+}
+
+.cambiode_contraseña form{
+    
+}
+
 .p {
     font-size: 15px;
 }
@@ -373,6 +391,10 @@ button {
 .reinscripcion input{
     color: #000000;
     
+}
+
+.t  {
+    margin-left: 20px;
 }
 
 /* evaluacion */
