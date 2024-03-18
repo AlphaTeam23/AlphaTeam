@@ -508,9 +508,9 @@ button {
 
 
 .inf_basica_profesor {
-    background-color: #ffffffb0;
-    width: 60%;
-    margin-left: 300px;
+    background-color: #ffffff6e;
+    width: 40%;
+    margin-left: 450px;
     margin-top: 150px;
     cursor: pointer;
 }
@@ -522,10 +522,10 @@ button {
     text-align: right;
     display: flex;
     justify-content: flex-start;
-    padding: 15px;
+    padding: 5px;
     width: 1050px;
     font-size: 18px;
-    color: #000000b6;
+    color: #000000;
     font-weight: normal;
 }
 
@@ -535,20 +535,21 @@ button {
 }
 
 b {
-    margin-left: 180px;
+    margin-left: 70px;
     font-weight: normal;
+    font-size: 15px;
 }
 
 .inf_basica_profesor img {
     width: 40px;
-    margin-left: 700px;
-    margin-top: -50px;
+    margin-left: 490px;
+    margin-top: -15px;
 }
 
 .imagen_camara img {
     width: 18px;
-    margin-top: -20px;
-    margin-left: 728px;
+    margin-top: -19px;
+    margin-left: 515px;
     position: absolute;
 }
 
@@ -560,16 +561,25 @@ b {
 
 hr {
     color: #00000056;
+    margin-top: -20px;
 }
 
 h4 {
-    color: #000000c4;
+    color: #000000;
     font-family: miFuentePath;
     font-weight: normal;
     font-size: 18px;
-    margin-left: 35px;
-    bottom: 35px;
+    margin-left: 28px;
+    bottom: 45px;
     position: relative;
     display: flex;
     justify-content: flex-start;
 }
+
+.titinfo a {
+    text-decoration: none;
+}
+
+
+
+
