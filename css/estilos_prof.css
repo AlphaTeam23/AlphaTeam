@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Fuentes */
 @font-face {
     font-family: miFuenteLime;
     src: url(../fuentes/Limelight-Regular.ttf);
@@ -103,39 +103,7 @@ li img {
    margin: 20px;
 }
 
-.profesor {
-    color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -650px;
-    margin-right: 20px;
-}
-
-.profesor img {
-    width: 20px;
-    height: 20px;
-}
-
-.profesor h4 {
-    font-family: miFuentePath;
-    background-color: #d9d9d957;
-    margin-right: 5px;
-    width: 80px;
-    text-align: center;
-    height: 100%;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 15px;
-    margin-top: 3px;
-}
-
-.profesor {
-    display: flex;
-    justify-content: flex-end;
-}
-
-
- .preguntas_container h3 {
+.preguntas_container h3 {
     font-family: miFuentePath;
     color: #fff;
     text-align: center;
