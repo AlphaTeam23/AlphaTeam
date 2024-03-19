@@ -314,8 +314,8 @@ button {
 
 .cambiode_contraseña{
  position: absolute;
- bottom: -250px;
- left: -140px;
+ bottom: -280px;
+ left: -50px;
  display: flex;
  flex-direction: column;
 }
@@ -331,10 +331,11 @@ button {
 }
 
 
+
 .cambiode_contraseña img{
     position: absolute;
-    left:205px;
-    top: 58px;
+    left:212px;
+    top: 57px;
     width: 20px;
     
 }
@@ -343,14 +344,14 @@ button {
     font-family: miFuentePath;
     width: 200px;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 25px;
     margin: 20px;
 }
 
 .input1 {
     background-color: #d9d9d949;
     border: none;
-    left: 63px;
+    left: 36px;
     position: relative;
 }
 
@@ -371,9 +372,9 @@ button {
 
 .imagen {
     position: absolute;
-    top: 70px;
+    top: 62px;
     bottom: 30px;
-    left: 37px;
+    left: 1px;
 }
 
 
@@ -649,3 +650,5 @@ button {
 .accordion-container input:checked+.tab-title::after {
     transform: rotate(90deg);
 }
+
+
