@@ -340,10 +340,27 @@ button {
 }
 
 .cambiode_contraseña input{
+    font-family: miFuentePath;
     width: 200px;
-   font-size: 20px;
-   padding-left: 20px;
-   margin: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.input1 {
+    background-color: #d9d9d949;
+    border: none;
+    left: 63px;
+    position: relative;
+}
+
+.input2 {
+    background-color: #d9d9d949;
+    border: none;
+}
+
+.input_boton1 {
+    font-family: miFuentePath;
 }
 
 .enviar {
@@ -432,7 +449,7 @@ button {
 
 /* evaluacion */
  .contenedor{
-     display: grid;
+    display: grid;
     grid-gap: 2rem, 5rem;
     grid-template-columns: 2fr 6fr 4fr;
     grid-template-rows: 3rem;
@@ -441,10 +458,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 600px;
-    gap: 20px;
-    
-   
-   
+    gap: 20px;  
 }
 
 .contenedor h2{
@@ -531,7 +545,7 @@ button {
 }
 
 
-/* miscalificaciones */
+/* mis calificaciones */
 
 .calificaciones section{
     margin-top: 10px;
