@@ -175,7 +175,7 @@ li img {
   text-transform: uppercase;
 }
 
-/*PARA PAGINA DE APROBACIONES*/
+
 .tit_pagina {
   color: #fff;
   font-family: miFuentePath;
@@ -238,7 +238,7 @@ li img {
    
 }
 
-  /*PARA PAGINA ADMINISTRACION DE CURSO*/
+
 .titcurs_pagina {
    color: #fff;
    position: absolute;
@@ -292,7 +292,7 @@ li img {
       }
 
 
-      /*Planificacion Docente*/
+
      section {
       width: 846px;
       color: #fff;
@@ -309,7 +309,7 @@ li img {
     }
 
 
-    /* Record*/
+
     .datosestudiante {
       border-color: #979393;
       background-color: #ffffff83;
