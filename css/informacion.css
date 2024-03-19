@@ -314,18 +314,51 @@ button {
 
 .cambiode_contraseña{
  position: absolute;
- bottom: -120px;
+ bottom: -250px;
+ left: -140px;
  display: flex;
  flex-direction: column;
 }
 
 .cambiode_contraseña h2{
+    width: 500px;
+    padding-right: 130px;
+}
+
+.cambiode_contraseña label{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.cambiode_contraseña img{
+    position: absolute;
+    left:205px;
+    top: 58px;
+    width: 20px;
     
 }
 
-.cambiode_contraseña form{
-    
+.cambiode_contraseña input{
+    width: 200px;
+   font-size: 20px;
+   padding-left: 20px;
+   margin: 20px;
 }
+
+.enviar {
+    display: block;
+    text-align: center;
+    transform: translate(120px);
+}
+
+.imagen {
+    position: absolute;
+    top: 70px;
+    bottom: 30px;
+    left: 37px;
+}
+
 
 .p {
     font-size: 15px;
