@@ -26,7 +26,6 @@
 
 body {
   background-color: #031D45;
-  overflow: hidden;
   font-family: miFuentePath; 
 }
 
@@ -256,8 +255,17 @@ li img {
 .buscar {
    display: flex;
    align-self: flex-start;
-   left: 300px;
+   left: 80px;
    top: 0px;
+   height: 20px;
+   width: 30%;
+}
+
+.crear {
+   display: flex;
+   align-self: flex-start;
+   left: 350px;
+   top: -30px;
    height: 20px;
    width: 30%;
 }
@@ -267,7 +275,7 @@ li img {
     background-color: #ffffff83;
     color: #0d0c0c;
     position: absolute;
-    top: 303px;
+    top: 328px;
     left: 440px;
     height: 20px;
     width: 838px;
@@ -354,9 +362,7 @@ li img {
             width: 847px;
             }
 
-        .crear {
-          left: 300px;
-        }
+    
     
 
 
