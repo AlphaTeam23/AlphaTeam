@@ -301,7 +301,7 @@ h4 .listado {
 }
 
 .evaluaciones_container {
-    margin-top: -520px;
+    margin-top: -660px;
 }
 
 .evaluaciones h3 {
@@ -323,10 +323,21 @@ h4 .listado {
     font-family: miFuentePath;
 }
 
+.evaluaciones h2 {
+    font-family: miFuentePath;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 230px;
+    bottom: -90px;
+    position: relative;
+    font-size: 28px;
+}
+
 .evaluaciones p {
     font-family: miFuentePath;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 22px;
     color: #fff;
     text-align: center;
     margin-top: 130px;
