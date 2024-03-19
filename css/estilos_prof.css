@@ -182,24 +182,32 @@ label {
     text-align: center;
 }
 
-h4 {
+/* .h4 {
     color: #fff;
     font-family: miFuentePath;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-    margin-left: 200px;
-}
+    margin-top: -30px;
+    width: 350px;
+} */
 
+.listado {
+    color: #fff;
+    font-family: miFuentePath;
+    font-size: 25px;
+    margin-top: -30px;
+    left: 630px;
+
+}
 .info_estudiante {
     display: flex;
     justify-content: center;
-    margin-top: -509px;
+    margin-top: -480px;
     font-size: 22px;
-    margin-left: 300px;
 }
 
+.info_estudiante table {
+    margin-left: 100px;
+}
 .entregas {
     margin-top: -110px;
 }
@@ -624,6 +632,3 @@ h4 {
     left: 170px;
     color: #000;
 }
-
-
-
