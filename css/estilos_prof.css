@@ -560,5 +560,70 @@ h4 {
 }
 
 
+.cambio_contraseña h2 {
+    font-family: miFuentePath;
+    font-weight: normal;
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+}
+
+.cambio_contraseña {
+    margin-top: 135px;
+}
+
+.cambio_contraseña img {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 203px;
+    margin-top: -45px;
+    width: 18px;
+}
+
+.imagen {
+    margin-top: 24px;
+}
+
+.botton1 {
+    background-color: #d9d9d949;
+    border: none;
+    height: 25px;
+    margin: 25px;
+    margin-left: 33px;
+    padding-left: 27px;
+}
+
+
+.botton2 {
+    background-color: #d9d9d949;
+    border: none;
+    height: 25px;
+    padding-left: 27px;
+}
+
+.input_boton1 {
+    margin-top: 50px;
+}
+
+.input_boton1 label {
+    font-size: 22px;
+}
+
+.enviar {
+    font-family: miFuentePath;
+    background-color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 0;   
+    bottom: -60px;
+    position: relative;
+    left: 170px;
+    color: #000;
+}
+
 
 
