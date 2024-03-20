@@ -648,3 +648,27 @@ h4 {
     left: 170px;
     color: #000;
 }
+
+.tabla3 {
+    color: #fff;
+    font-family: miFuentePath;
+    margin-left: 448px;
+    margin-top: -508px;
+}
+
+.tabla3 th {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h6 {
+    color: #fff;
+    font-family: miFuentePath;
+    font-weight: normal;
+    font-size: 25px;
+    top: -540px;
+    position: relative;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+}
