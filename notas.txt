@@ -1,3 +1,5 @@
+PRIEMERAS CORRECCIONES
+
 en acceder hay que ponerle un link para entrar
 letras mayusculas poner en minuscula y solo dejar titulos
 agregar link a las tareas
