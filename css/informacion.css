@@ -147,7 +147,7 @@ main{
     grid-template-columns: 2fr 6fr 4fr;
     grid-template-rows: 3rem;
     margin: 0 30rem;
-   transform: translateY(-500px); 
+   transform: translateY(-440px); 
 }
 
 p{
@@ -179,8 +179,32 @@ main img{
    position: absolute;
    left: 115%;
    
+   
 }
 
+
+.informacion {
+    margin: -155px;
+    text-align: center;
+    margin-top: -79px;
+}
+
+.informacion h5 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: miFuentePath;
+    margin: 10px;
+    font-weight: normal;
+}
+
+
+.informacion img {
+    width: 30px;
+
+}
 
 
 h6{
@@ -314,10 +338,11 @@ button {
 
 .cambiode_contraseña{
  position: absolute;
- bottom: -280px;
- left: -50px;
+ bottom: -230px;
+ left: -60px;
  display: flex;
  flex-direction: column;
+ 
 }
 
 .cambiode_contraseña h2{
@@ -334,75 +359,91 @@ button {
 
 .cambiode_contraseña img{
     position: absolute;
-    left:212px;
-    top: 57px;
+    left:236px;
+    top: 60px;
     width: 20px;
     
 }
 
-.cambiode_contraseña input{
+.cambiode_contraseña {
     font-family: miFuentePath;
-    width: 200px;
+    width: 600px;
     font-size: 20px;
     padding-left: 25px;
-    margin: 20px;
+    
 }
 
 .input1 {
     background-color: #d9d9d949;
     border: none;
-    left: 36px;
+    left: 35px;
     position: relative;
+    margin: 20px;
+    height: 30px;
+    padding-left: 24px;
 }
 
 .input2 {
     background-color: #d9d9d949;
     border: none;
+    position: relative;
+    left: 20px;
+    height: 30px;
+    padding-left: 24px;
 }
 
 .input_boton1 {
     font-family: miFuentePath;
 }
 
-.enviar {
-    display: block;
-    text-align: center;
-    transform: translate(120px);
+.enviar  {
+    font-family: miFuentePath;
+    background-color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: 90px;
+    border-radius: 5px;
+    bottom: -60px;
+    position: relative;
+    left: 170px;
+    color: #000;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: #b9b7b7;
 }
 
 .imagen {
     position: absolute;
-    top: 62px;
-    bottom: 30px;
+    top: 55px;
+    
     left: 1px;
 }
+
+
+
+/* boton regresar */
+
+.regresar {
+    margin-left: 80px;
+    margin-top: -110px;
+}
+
+.regresar img {
+    width: 18px;
+    height: 18px;
+}
+
 
 
 .p {
     font-size: 15px;
 }
 
-.informacion {
-     margin: -155px;
-    text-align: center; 
-}
 
-.informacion h5 {
-    font-size: 20px;
-     color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: miFuentePath;
-    margin: 10px;
-    font-weight: normal;
-}
-
-
-.informacion img {
-    width: 30px;  
-    
-}
 
 /* reinscripcion */
 
@@ -459,7 +500,8 @@ button {
     display: flex;
     flex-direction: column;
     width: 600px;
-    gap: 20px;  
+    gap: 20px;
+     
 }
 
 .contenedor h2{
@@ -474,7 +516,7 @@ button {
     width: 500px;
     font-family: miFuentePath;
     font-weight: normal;
-    
+    overflow-y: hidden;
     
 }
 
@@ -549,7 +591,8 @@ button {
 /* mis calificaciones */
 
 .calificaciones section{
-    margin-top: 10px;
+    margin-top: -15px;
+    
 }
 
 .calificaciones  h2{
@@ -570,9 +613,14 @@ button {
    font-family: miFuentePath;
    font-size: 25px;
   
+   
+  
+  
 }
 
-.ml {
+
+
+.ml th{
     text-align: center;
     font-weight: normal;
 }
@@ -580,8 +628,8 @@ button {
 /* ayuda */
 
 .top{
-    margin-top: 200px;
-    transform: translate(-50px);
+    margin-top: 60px;
+    transform: translate(0);
 }
 
 .main{
