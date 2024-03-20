@@ -268,7 +268,7 @@ li img {
 }
 
 
-.estudiante {
+/* .estudiante {
     color: #fff;
     display: flex;
     justify-content: flex-end;
@@ -289,34 +289,12 @@ li img {
     height: 100%;
     text-transform: uppercase;
     font-weight: normal;
-}
+} */
 
-.profesor {
-    color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -500px;
-}
 
-.profesor img {
-    width: 20px;
-    height: 20px;
-}
 
-.profesor h4 {
-    font-family: miFuentePath;
-    background-color: #d9d9d957;
-    margin-right: 5px;
-    width: 80px;
-    text-align: center;
-    height: 100%;
-    text-transform: uppercase;
-}
 
-.profesor {
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 
 

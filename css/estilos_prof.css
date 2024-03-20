@@ -182,13 +182,13 @@ label {
     text-align: center;
 }
 
-/* .h4 {
+.h4 {
     color: #fff;
     font-family: miFuentePath;
     font-size: 25px;
     margin-top: -30px;
     width: 350px;
-} */
+}
 
 .listado {
     color: #fff;
@@ -527,6 +527,10 @@ b {
     font-size: 15px;
 }
 
+.inf_basica_profesor {
+    background-color: #bdb9b9;
+}
+
 .inf_basica_profesor img {
     width: 40px;
     margin-left: 490px;
@@ -541,13 +545,13 @@ b {
 }
 
 .imagenes_agregar {
-    top: -8px;
+    top: -10px;
     position: relative;
     margin-right: 20px;
 }
 
-hr {
-    color: #00000056;
+.hr1 {
+    color: #99999971;
     margin-top: -20px;
 }
 
@@ -557,16 +561,28 @@ h4 {
     font-weight: normal;
     font-size: 18px;
     margin-left: 28px;
-    bottom: 45px;
+    bottom: 2px;
     position: relative;
     display: flex;
     justify-content: flex-start;
 }
 
-.titinfo a {
-    text-decoration: none;
+.titinfo hr {
+    margin-top: 28px;
+    color: #99999971;
 }
 
+.titinfo a {
+    text-decoration: none;
+    bottom: -20px;
+    position: relative;
+}
+
+.titinfo img {
+    width: 20px;
+    bottom: 12px;
+    position: relative;
+}
 
 .cambio_contraseña h2 {
     font-family: miFuentePath;
@@ -584,7 +600,7 @@ h4 {
     display: flex;
     justify-content: flex-start;
     margin-left: 203px;
-    margin-top: -45px;
+    margin-top: -49px;
     width: 18px;
 }
 
@@ -595,7 +611,7 @@ h4 {
 .botton1 {
     background-color: #d9d9d949;
     border: none;
-    height: 25px;
+    height: 30px;
     margin: 25px;
     margin-left: 33px;
     padding-left: 27px;
@@ -605,7 +621,7 @@ h4 {
 .botton2 {
     background-color: #d9d9d949;
     border: none;
-    height: 25px;
+    height: 30px;
     padding-left: 27px;
 }
 
