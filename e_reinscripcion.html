@@ -70,7 +70,7 @@
     <main>
         <section>
             <form class="reinscripcion">
-                <fieldset>
+                <fieldset class="num">
                     <legend>DATOS PERSONALES</legend>
 
                     <label for="nombre">Nombre</label>
@@ -91,12 +91,13 @@
                 <label for="gen">Sexo</label>
                 <input type="radio" name="gen" value="Femenino">Femenino
                 <input type="radio" name="gen" value="Masculino">Masculino
-                </fieldset>
                 
+                </fieldset>
 
+                <fieldset class="num2" >
+                    <div class="cu"></div>
 
-                <fieldset>
-                    <legend>DIRECCION</legend>
+                    <legend >DIRECCION</legend>
 
                     <label for="origen">Nacionalidad</label>
                     <input type="radio" name="origen" class="don" value="Dominicana">Dominicana
@@ -144,10 +145,10 @@
 
                     <label for="sec">Sector</label>
                     <input type="text" id="sec" placeholder="Digite aqui su sector" required >
-                </fieldset>
+               
                 
-                <fieldset class>
-                    <legend>EMAIL Y TELEFONOS</legend>
+                
+                
                     <label for="mail">Correo electrónico</label>
                     <input type="email" id="mail" placeholder="ej: maria05@gmail.com" required>
                     <br><br>
@@ -163,10 +164,10 @@
 
                     <label for="tele">Número telefónico de Tutor</label>
                     <input type="tel" id="tele" required>
-                </fieldset>
+              
 
-                <fieldset class="">
-                    <legend>INFORMACIONES ACADEMICAS</legend>
+                
+                    
                     <label for="curso1">Curso Promovido</label>
                     <select name="curso1" id="curso1" required>
                         <option value="">-Elija un curso-</option>
@@ -187,6 +188,7 @@
 
                     <input type="reset" value="Borrar">
                     <input type="submit" value="Enviar Formulario">
+                    </fieldset>
                 </form>
         </section>
     </main>

@@ -185,7 +185,7 @@ main img{
 .informacion {
     margin: -155px;
     text-align: center;
-    margin-top: -79px;
+    margin-top: -89px;
 }
 
 .informacion h5 {
@@ -456,24 +456,50 @@ button {
    
 }
 
-.reinscripcion fieldset{
-    height: 137px;
-    color: #fff;
+.num{
+    height: 141px;
+    color: #000000;
     font-size: 18px;
     font-family: miFuentePath;
+    margin: -20px;
+    background-color: #fff;
     
 }
 
+.num2 {
+    height: 381px;
+    color: #000000;
+    font-size: 18px;
+    font-family: miFuentePath;
+    margin: -20px;
+    background-color: #fff;
+
+}
+
+.cu{
+    position: relative;
+    bottom: 20px;
+    padding: 6px;
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+}
+
+
 .reinscripcion legend {
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     font-family: miFuentePath;
-    text-align: center;
+    padding: 5px;
+    background-color: #0065fdd5;
+    width: 800px;
+    border-bottom: 22px 22px 22px  rgb(240, 28, 5);
+    
    
 }
 
 .reinscripcion label{
-    color: #fff;
+    color: #000000;
     font-size: 19px;
     font-family: miFuentePath;
     margin: 15px;
@@ -482,6 +508,7 @@ button {
 
 .reinscripcion input{
     color: #000000;
+    margin: 10px;
     
 }
 
@@ -492,15 +519,15 @@ button {
 /* evaluacion */
  .contenedor{
     display: grid;
-    grid-gap: 2rem 5rem;
+    /* grid-gap: 2rem 5rem;
     grid-template-columns: 2fr 6fr 4fr;
-    grid-template-rows: 3rem;
+    grid-template-rows: 3rem; */
     margin: 0 30rem; 
-    transform: translateY(-460px);
+    transform: translateY(-460px); 
     display: flex;
     flex-direction: column;
     width: 600px;
-    gap: 20px;
+    gap: 20px; 
     
 }
 
@@ -612,7 +639,7 @@ button {
    height: 300px;
    color: #fff;
    font-family: miFuentePath;
-   font-size: 25px;
+   font-size: 20px;
   
    
   
