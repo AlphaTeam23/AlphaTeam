@@ -175,11 +175,16 @@ label {
     margin-top: 10px;
 }
 
+.tabla1 th {
+    font-weight: normal;
+}
+
 .tabla2 {
     color: #fff;
     font-family: miFuentePath;
     font-weight: normal;
     text-align: center;
+    /* width: 850px; */
 }
 
 .h4 {
@@ -194,10 +199,11 @@ label {
     color: #fff;
     font-family: miFuentePath;
     font-size: 25px;
-    margin-top: -30px;
-    left: 630px;
-
+    top: 84px;
+    left: 500px;
+    position: relative;
 }
+
 .info_estudiante {
     display: flex;
     justify-content: center;
@@ -206,8 +212,48 @@ label {
 }
 
 .info_estudiante table {
-    margin-left: 100px;
+    margin-left: 350px;
+    margin-top: 500px;
 }
+
+.calificaciones_docente2 {
+    margin-top: -650px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.calificaciones_docente2 option {
+    padding: 0 auto;
+}
+
+.boton9 {
+    font-family: miFuentePath;
+    margin: 15px;
+    font-size: 18px;
+    width: 90px;
+    font-weight: normal;
+    bottom: 80px;
+    position: relative;
+    left: 600px;
+}
+
+.calificaciones_docente2 fieldset {
+    height: 100px;
+    width: 800px;
+    right: 1px;
+    position: relative;
+}
+
+.calificaciones_docente2 legend {
+    font-size: 22px;
+    text-align: center;
+}
+
+#period {
+    width: 188px;
+}
+
+
 .entregas {
     margin-top: -110px;
 }
@@ -218,7 +264,7 @@ label {
     font-weight: normal;
     bottom: -30px;
     position: relative;
-    left: 140px;
+    left: 80px;
 }
 
 .profe1 {
@@ -251,16 +297,21 @@ table {
     margin-left: 42px;
 }
 
+#curso1 {
+    width: 132px;
+    margin-left: 16px;
+}
+
+.planif_fielsed {
+    height: 105px;
+}
+
 .enviar_borrar {
     font-family: miFuentePath;
     width: 50px;
     font-weight: normal;
     font-size: 16px;
     margin-top: 10px;
-}
-
-h4 .listado {
-    font-weight: normal;
 }
 
 #dia {
@@ -420,7 +471,8 @@ button {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     display: none;
     z-index: 1;
-    padding: 20px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .menu-items a {
@@ -661,14 +713,17 @@ h4 {
     font-size: 20px;
 }
 
-h6 {
+.horario_clases h6 {
     color: #fff;
     font-family: miFuentePath;
     font-weight: normal;
     font-size: 25px;
-    top: -540px;
+    top: -553px;
     position: relative;
-    margin-left: 250px;
     display: flex;
     justify-content: center;
+    margin-left: 250px;
 }
+
+
+

@@ -44,9 +44,6 @@
                 <li><img src="imagenes/bx-notepad.svg" alt="nota">
                     <a href="p_calificaciones.html">CALIFICACIONES
                 </a></li>
-                <li><img src="imagenes/bxs-pencil.svg" alt="visto">
-                    <a href="p_examenesprox.html">EXAMENES PROXIMOS
-                </a></li>
                 <li><img src="imagenes/bx-calendar.svg" alt="calendario">
                     <a href="p_calendarioescolar.html">HORARIO ESCOLAR
                 </a></li>
@@ -55,6 +52,9 @@
                 </a></li>
                 <li><img src="imagenes/bxs-book-content.svg" alt="evaluar">
                     <a href="p_cargarplanificacion.html">PLANIFICACION
+                </a></li>
+                <li><img src="imagenes/bxs-credit-card.svg" alt="visto">
+                    <a href="p_pago.html">PAGO
                 </a></li>
                 <li><img src="imagenes/bx-help-circle.svg" alt="ayuda">
                     <a href="p_ayuda.html">AYUDA
@@ -75,10 +75,10 @@
                 </figure>
             </div> -->
             <form class="planificacion_docente">
-                <fieldset>
+                <fieldset class="planif_fielsed">
                     <legend class="plan_docente">Cargar  Planificacion</legend>
-                    <label for="curso">Nivel</label>
-                        <select name="curso" id="curso" required>
+                    <label for="curso1">Nivel</label>
+                        <select name="curso1" id="curso1" required>
                             <option value="">- Elija un curso -</option>
                             <optgroup label="Nivel Primario">
                             <option value="pp">Pre-primario</option>
@@ -97,7 +97,7 @@
                             <option value="6s">6° Grado</option>
                     </select>
 
-                    <label for="prof" class="prof5">Profesor</label>
+                    <label for="prof" class="prof7">Profesor</label>
                     <select name="prof" id="prof" required>
 
                         <option value="">Seleccione un Profesor</option>
@@ -120,8 +120,8 @@
                         <option value="">F</option>
                     </select>
                    <br><br>
-                    <label for="period">Periodo</label>
-                    <select name="period" id="period" required>
+                    <label for="period1">Periodo</label>
+                    <select name="period1" id="period1" required>
                         <option value="">- Elija un periodo -</option>
                         <option value="">2022-2023</option>
                         <option value="">2023-2024</option>
