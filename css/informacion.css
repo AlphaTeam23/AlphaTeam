@@ -28,7 +28,7 @@
 
 
 body {
-    background-color: #031D45;
+    background-color: #031D45; 
     overflow-x: hidden;
 }
 
@@ -456,33 +456,38 @@ button {
    
 }
 
+.reinscripcion form{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
 .num{
-    height: 141px;
+    height: 230px;
     color: #000000;
     font-size: 18px;
     font-family: miFuentePath;
-    margin: -20px;
     background-color: #fff;
     
 }
 
 .num2 {
-    height: 381px;
+    height: 490px;
     color: #000000;
     font-size: 18px;
     font-family: miFuentePath;
-    margin: -20px;
-    background-color: #fff;
+    background-color: #ffffff;
+  
 
 }
 
 .cu{
     position: relative;
-    bottom: 20px;
+    bottom: 33px;
     padding: 6px;
-    background-color: #000000;
+    background-color: #031D45;
     width: 20px;
-    height: 20px;
+    height: 33px;
 }
 
 
@@ -494,7 +499,7 @@ button {
     background-color: #0065fdd5;
     width: 800px;
     border-bottom: 22px 22px 22px  rgb(240, 28, 5);
-    
+    padding-left: 25px;
    
 }
 
@@ -502,13 +507,15 @@ button {
     color: #000000;
     font-size: 19px;
     font-family: miFuentePath;
-    margin: 15px;
-    line-height: 20px;
+   
 }
 
 .reinscripcion input{
     color: #000000;
     margin: 10px;
+    height: 10px;
+  padding: 15px;
+ 
     
 }
 
