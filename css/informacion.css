@@ -266,7 +266,8 @@ button {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     display: none;
     z-index: 1;
-    padding: 20px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .menu-items a {
@@ -452,26 +453,30 @@ button {
 
 .reinscripcion{
     width: 800px;
-    margin-left: 70px;
+    margin-left: 70px; 
    
 }
 
-.reinscripcion form{
+/* .reinscripcion form{
    display: flex;
    flex-wrap: wrap;
-   
-}
+    
+} */
 
 .num{
-    height: 230px;
+    height: 710px;
+    position: relative;
+    bottom: 10px;
     color: #000000;
     font-size: 18px;
     font-family: miFuentePath;
     background-color: #fff;
+   
+   
     
 }
 
-.num2 {
+/* .num2 {
     height: 490px;
     color: #000000;
     font-size: 18px;
@@ -479,49 +484,111 @@ button {
     background-color: #ffffff;
   
 
-}
+} */
 
-.cu{
+ .cu{
+    background-color: #00ccff;
     position: relative;
+    left: 20px;
     bottom: 33px;
     padding: 6px;
-    background-color: #031D45;
     width: 20px;
     height: 33px;
+} 
+
+.A{
+    background-color: #00ccff;
+    position: relative;
+    left: 20px;
+    bottom: 66px;
+    padding: 6px;
+    width: 20px;
+    height: 33px;
+    z-index: 1;
 }
 
-
 .reinscripcion legend {
+    
     color: #fff;
     font-size: 20px;
     font-family: miFuentePath;
     padding: 5px;
-    background-color: #0065fdd5;
-    width: 800px;
+    background-color: #023685;
+    width: 750px;
     border-bottom: 22px 22px 22px  rgb(240, 28, 5);
     padding-left: 25px;
+    margin-left:20px ;
+    z-index: 1;
    
 }
 
 .reinscripcion label{
     color: #000000;
-    font-size: 19px;
+    font-size: 17px;
     font-family: miFuentePath;
+    padding-left: 10px;
+    
    
+}
+
+#edad{
+    width: 50px;
+}
+
+#tel{
+    width: 103px;
+}
+
+#tel::placeholder{
+    font-size: 11px;
+}
+
+#tele{
+    width: 100px;
+}
+
+#tele::placeholder{
+    font-size: 11px;
+}
+
+.full{
+   position: relative;
+   bottom: 39px;
+}
+
+.full2 {
+    position: relative;
+    bottom: 59px;
+}
+
+.full3 {
+    position: relative;
+    bottom: 79px;
+}
+
+.full4 {
+    position: relative;
+    bottom: 79px;
+}
+
+.cls{
+    position: relative;
+    bottom: 33px;
 }
 
 .reinscripcion input{
     color: #000000;
-    margin: 10px;
+    margin: 15px;
     height: 10px;
-  padding: 15px;
+  padding: 10px;
+  padding-left: 4px;
  
     
 }
 
-.t  {
+/* .t  {
     margin-left: 20px;
-}
+} */
 
 /* evaluacion */
  .contenedor{

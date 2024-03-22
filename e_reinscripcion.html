@@ -74,6 +74,7 @@
                     
                     <legend>DATOS PERSONALES</legend>
 
+                    <div class="full">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" placeholder="Introduzca su nombre" required>
 
@@ -83,28 +84,32 @@
                 
 
                 <label for="edad">Edad</label>
-                <input type="number" id="edad" required>
+                <input type="text" id="edad" required>
                     <br>
                 <label for="nac">Fecha de nacimiento</label>
                 <input type="date" id="nac" required>
                 
 
-               <!--  <label for="gen">Sexo</label>
+                 <label for="gen">Sexo</label>
                 <input type="radio" name="gen" value="Femenino">Femenino
-                <input type="radio" name="gen" value="Masculino">Masculino -->
+                <input type="radio" name="gen" value="Masculino">Masculino 
                 
-                </fieldset>
+            </div>
 
-                <fieldset class="num2" >
-                    <div class="cu"></div>
+                <!-- <fieldset class="num2" > -->
+                   
 
-                    <legend >DIRECCION</legend>
+                    <legend class="cls" >DIRECCION</legend>
+                    <div class="A"></div>
 
-                  <!--   <label for="origen">Nacionalidad</label>
-                    <input type="radio" name="origen" class="don" value="Dominicana">Dominicana
+                    <div class="full2">
+                    <label for="origen">Nacionalidad</label>
+                    <input type="radio" name="origen" id="origen" value="Dominicana">Dominicana
                     <input type="radio" name="origen" value="Extranjera">Extranjera
-                    <br><br> -->
+                    <br><br> 
+                        </div>
 
+                        <div class="full3">
                     <label for="calle">Calle</label>
                     <input type="text" id="calle" required>
 
@@ -146,20 +151,21 @@
 
                     <label for="sec">Sector</label>
                     <input type="text" id="sec" placeholder="Digite aqui su sector" required >
-               
+                    </div>
                 
                 
-                
+                    <div class="full4">
                     <label for="mail">Correo electrónico</label>
                     <input type="email" id="mail" placeholder="ej: maria05@gmail.com" required>
-                    <br><br>
+                    
 
                     <label for="tel">Telefono Residencial</label>
-                    <input type="text" id="tel" placeholder="Digite un numero de telefono">
+                    <input type="text" id="tel" placeholder="Digite su telefono">
 
                     <label for="tele">Celular</label>
-                    <input type="text" id="tele" placeholder="Digite su numero de celular" required>
+                    <input type="text" id="tele" placeholder="Digite su celular" required>
                     <br><br>
+                    </div>
                     <label for="responsable">Tutor/a</label>
                     <input type="text" id="responsable" placeholder="Introduza el nombre de su tutor" required>
 
@@ -181,11 +187,12 @@
                     </select>
                     <br><br>
 
-                    <label for="hora">TANDA</label>
+               <legend>Tanda</legend>
+            <div class="cu"></div>
                     <br>
-                    <!-- <input class="t" type="radio" name="hora" required value="Mañana">Matutina
-                    <input class="t" type="radio" name="hora" required value="tarde">Vespertina -->
-                    </fielsed>
+                    <input class="t" type="radio" name="hora" required value="Mañana">Matutina
+                    <input class="t" type="radio" name="hora" required value="tarde">Vespertina 
+                    <!-- </fielsed> -->
 
                     <input type="reset" value="Borrar">
                     <input type="submit" value="Enviar Formulario">
