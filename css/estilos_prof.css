@@ -705,25 +705,44 @@ h4 {
     color: #fff;
     font-family: miFuentePath;
     margin-left: 448px;
-    margin-top: -508px;
+    margin-top: -516px;
+    width: 100px;
 }
 
 .tabla3 th {
+    background-color: #248fc9c0 ;
     font-weight: normal;
     font-size: 20px;
+    border-radius: 3px;
+    height: 40px;
+    width: 990px; 
+    
 }
+
+.tabla3 td {
+    background-color:  #7cacbdf6;
+    border-radius: 3px;
+    height: 67px;
+    text-align: center;
+    font-weight: normal;   
+}
+
 
 .horario_clases h6 {
     color: #fff;
     font-family: miFuentePath;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 30px;
     top: -553px;
     position: relative;
     display: flex;
     justify-content: center;
     margin-left: 250px;
 }
+
+
+
+
 
 
 
