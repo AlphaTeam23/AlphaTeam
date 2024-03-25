@@ -464,7 +464,7 @@ button {
 } */
 
 .num{
-    height: 710px;
+    height: 510px;
     position: relative;
     bottom: 10px;
     color: #000000;
@@ -571,10 +571,39 @@ button {
     bottom: 79px;
 }
 
+.full5 {
+    position: relative;
+    bottom: 100px;
+}
+
+.full6{
+    position: relative;
+    bottom: 40px;
+}
+
+#boton{
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: #023685;
+    color: #fff;
+
+}
+
+#boton:hover{
+    background-color: #00ccff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
 .cls{
     position: relative;
     bottom: 33px;
 }
+
+
 
 .reinscripcion input{
     color: #000000;
@@ -582,8 +611,7 @@ button {
     height: 10px;
   padding: 10px;
   padding-left: 4px;
- 
-    
+
 }
 
 /* .t  {
@@ -596,13 +624,12 @@ button {
     /* grid-gap: 2rem 5rem;
     grid-template-columns: 2fr 6fr 4fr;
     grid-template-rows: 3rem; */
-    margin: 0 30rem; 
-    transform: translateY(-460px); 
+    margin: 0 30rem;
+    transform: translateY(-460px);
     display: flex;
     flex-direction: column;
     width: 600px;
-    gap: 20px; 
-    
+    gap: 20px;
 }
 
 .contenedor h2{
@@ -618,7 +645,6 @@ button {
     font-family: miFuentePath;
     font-weight: normal;
     overflow-y: hidden;
-    
 }
 
 .cont2 h3{
@@ -627,8 +653,6 @@ button {
     width: 500px;
     font-family: miFuentePath;
     font-weight: normal;
-  
-   
 }
 
 .cont1 a{
@@ -636,8 +660,6 @@ button {
     font-family: miFuentePath;
     font-weight: normal;
     font-size: 20px;
-   
-    
 }
 
 .cont1 a:hover{
@@ -694,7 +716,6 @@ button {
 .calificaciones section{
     margin-top: -15px;
    margin-left: 50px;
-    
 }
 
 .calificaciones  h2{
@@ -714,10 +735,6 @@ button {
    color: #fff;
    font-family: miFuentePath;
    font-size: 20px;
-  
-   
-  
-  
 }
 
 
@@ -800,5 +817,7 @@ button {
 .accordion-container input:checked+.tab-title::after {
     transform: rotate(90deg);
 }
+
+
 
 
