@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -248,28 +248,28 @@ li img {
 
 
 .aprobar{
-   position: absolute;
-   bottom: 0px;
-   top: 4px;
-   left: 91%;
-   width: auto;
-   transform: translateX(-50%);
+  position: absolute;
+  bottom: 0px;
+  top: 4px;
+  left: 91%;
+  width: auto;
+  transform: translateX(-50%);
    
 }
 
 
 .titcurs_pagina {
-   color: #fff;
-   position: absolute;
-   top: -400px;
-   left: 0px;
-   transform: translate(-10%, -1000%);
+  color: #fff;
+  position: absolute;
+  top: -400px;
+  left: 0px;
+  transform: translate(-10%, -1000%);
 }
 
 .referencia {
-   top: 0px;
-   height: 20px;
-   width: 10px;
+  top: 0px;
+  height: 20px;
+  width: 10px;
 }
 
 .buscar {
@@ -304,97 +304,94 @@ li img {
   color: #000;
 }
 
-  .datoscurs {
-    border-color: #979393;
-    background-color: #ffffff83;
-    color: #0d0c0c;
-    position: absolute;
-    top: 285px;
-    left: 440px;
-    height: 20px;
-    width: 838px;
-    }
+.datoscurs {
+  border-color: #979393;
+  background-color: #ffffff83;
+  color: #0d0c0c;
+  position: absolute;
+  top: 285px;
+  left: 440px;
+  height: 20px;
+  width: 838px;
+}
 
-  .inscripcion {
-    border-color: #979393;
-    background-color: #ffffff83;
-    color: #e0dada;
-    position: absolute;
-    top: -480px;
-    left: -80px;
-    height: 20px;
-    width: 850px;
-    }
+.inscripcion {
+  border-color: #979393;
+  background-color: #ffffff83;
+  color: #e0dada;
+  position: absolute;
+  top: -480px;
+  left: -80px;
+  height: 20px;
+  width: 850px;
+}
 
-      .inscripcion input {
-        height: 20px;
-        top: 0px;
-      
-
-      }
+.inscripcion input {
+  height: 20px;
+  top: 0px;
+}
 
 
 
-     section {
-      width: 846px;
-      color: #fff;
-      display: flex;
-      margin-top: -870px;
-      margin-left: -75px;
-      
-     } 
+  section {
+  width: 846px;
+  color: #fff;
+  display: flex;
+  margin-top: -870px;
+  margin-left: -75px;  
+} 
 
-     .referencia {
-      top: 0px;
-      height: 20px;
-      width: 10px;
-    }
-
+  .referencia {
+  top: 0px;
+  height: 20px;
+  width: 10px;
+}
 
 
-    .datosestudiante {
-      border-color: #979393;
-      background-color: #ffffff83;
-      color: #0d0c0c;
-      position: absolute;
-      top: 280px;
-      left: 425px;
-      height: 20px;
-      width: 845px;
-      }
 
-      .datosrecord1 {
-        border-color: #979393;
-        background-color: #ffffff83;
-        color: #0d0c0c;
-        position: absolute;
-        top: 310px;
-        left: 425px;
-        height: 20px;
-        width: 845px;
-        }
+.datosestudiante {
+  border-color: #979393;
+  background-color: #ffffff83;
+  color: #0d0c0c;
+  position: absolute;
+  top: 280px;
+  left: 425px;
+  height: 20px;
+  width: 845px;
+}
 
-        .datosrecord2 {
-          border-color: #979393;
-          background-color: #ffffff83;
-          color: #0d0c0c;
-          position: absolute;
-          top: 530px;
-          left: 425px;
-          height: 20px;
-          width: 845px;
-          }
+.datosrecord1 {
+  border-color: #979393;
+  background-color: #ffffff83;
+  color: #0d0c0c;
+  position: absolute;
+  top: 310px;
+  left: 425px;
+  height: 20px;
+  width: 845px;
+}
 
-          .datosusuarios {
-            border-color: #979393;
-            background-color: #ffffff83;
-            color: #0d0c0c;
-            position: absolute;
-            top: 280px;
-            left: 425px;
-            height: 20px;
-            width: 847px;
-            }
+.datosrecord2 {
+  border-color: #979393;
+  background-color: #ffffff83;
+  color: #0d0c0c;
+  position: absolute;
+  top: 530px;
+  left: 425px;
+  height: 20px;
+  width: 845px;
+}
+
+.datosusuarios {
+  border-color: #979393;
+  background-color: #ffffff83;
+  color: #0d0c0c;
+  position: absolute;
+  top: 280px;
+  left: 425px;
+  height: 20px;
+  width: 847px;
+}
 
     
     

@@ -24,6 +24,11 @@
     src: url(../fuentes/Pathway_Extreme.ttf);
 }
 
+@font-face {
+    font-family: miFuentePoppins;
+    src: url(../fuentes/Poppins..ttf);
+}
+
 
 body {
     background-color: #031D45;
@@ -701,23 +706,22 @@ h4 {
     color: #000;
 }
 
-.tabla3 {
+/* .tabla3 {
     color: #fff;
     font-family: miFuentePath;
     margin-left: 448px;
     margin-top: -516px;
     width: 100px;
-}
+}/*
 
 .tabla3 th {
-    background-color: #248fc9c0 ;
+    background-color: ;
     font-weight: normal;
     font-size: 20px;
     border-radius: 3px;
     height: 40px;
     width: 990px; 
-    
-}
+} 
 
 .tabla3 td {
     background-color:  #7cacbdf6;
@@ -725,7 +729,7 @@ h4 {
     height: 67px;
     text-align: center;
     font-weight: normal;   
-}
+}*/
 
 
 .horario_clases h6 {
@@ -733,16 +737,94 @@ h4 {
     font-family: miFuentePath;
     font-weight: normal;
     font-size: 30px;
-    top: -553px;
+    top: -560px;
     position: relative;
     display: flex;
     justify-content: center;
     margin-left: 250px;
+} 
+
+.horario {
+    font-family: miFuentePath;
+    display: grid;
+    grid-template-columns: repeat(6,100px);
+    gap: 20px;
+    text-align: center;
+    margin-top: -515px;
+    margin-left: 450px;
 }
 
+.horas {
+    background-color:  #248fc9c0;
+    display: grid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 110px;
+    font-size: 2rem;
+}
 
+.horas_horario {
+    color: #ffffff8e;
+    font-family: miFuentePath;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    right: 5px;
+    top: -15px;
+    position: relative;
+}
 
+.horario_clases h4 {
+    font-size: 22px;
+    color: #ffffffda;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+}
 
+.hora_entrada {
+    background-color: #7cacbdf6;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 12px; 
+    font-weight: normal;
+}
+
+.hora_entrada h2 {
+    color: #031D45;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.horas_materias {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    right: 5px;
+    top: -15px;
+    position: relative; 
+}
+
+.horas_materias h4 {
+    color: #031D45;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.hora_asignatura {
+    background-color: #7cacbdf6;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 12px; 
+    
+}
 
 
 
