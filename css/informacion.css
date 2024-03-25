@@ -580,20 +580,29 @@ button {
 }
 
 #boton{
-    padding: 5px;
+     padding: 5px; 
     text-align: center;
     height: 30px;
-    width: 100px;
-    background-color: #023685;
+    width: 100px; 
+     background-color: #023685;
     color: #fff;
 
 }
 
 #boton:hover{
     background-color: #00ccff;
-    color: #fff;
+    color: #050404;
     border-radius: 5px;
+    box-shadow: 0 0 5px #00ccff
+                0 0 25px #00ccff
+                0 0 50px #00ccff
+                0 0 200px #00ccff
+    ;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
+
+
+
 
 
 .cls{
@@ -616,83 +625,36 @@ button {
     margin-left: 20px;
 } */
 
-/* evaluacion */
+/* pago */
  .contenedor{
     display: grid;
     /* grid-gap: 2rem 5rem;
     grid-template-columns: 2fr 6fr 4fr;
     grid-template-rows: 3rem; */
-    margin: 0 30rem;
+    margin: 0 45rem;
+    margin-top: 150px;
     transform: translateY(-460px);
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    gap: 20px;
-}
-
-.contenedor h2{
-   text-align: right;
-    width: 500px;
-    margin: auto  -90px;
-}
-
-.cont1 h3{
-    color: #fff;
-    font-size: 25px;
-    width: 500px;
-    font-family: miFuentePath;
-    font-weight: normal;
-    overflow-y: hidden;
-}
-
-.cont2 h3{
-    color: #fff;
-    font-size: 25px;
-    width: 500px;
-    font-family: miFuentePath;
-    font-weight: normal;
-}
-
-.cont1 a{
-    color: #fff;
-    font-family: miFuentePath;
-    font-weight: normal;
-    font-size: 20px;
-}
-
-.cont1 a:hover{
-  color: rgb(0, 64, 255);
+    padding: 10px;
+        width: 300px;
+    
+        background-color: #555;
 }
 
 
-.cont2 a{
-    color: #fff;
-    font-family: miFuentePath;
-    font-weight: normal;
-    font-size: 20px;
+.pago1 img{
+    width: 60px;
     
 }
-
-.cont2 a:hover{
-    color: rgb(0, 64, 255);
+.contenedor h2{
+    display: flex;
+    width: 500px;
+    margin-top: 40px;
+   margin-left: 30px;
+   
 }
 
-.cont1 h6{
-    color: #fff;
-    font-family: miFuentePath;
-    font-weight: normal;
-    font-size: 25px;
-}
 
-.cont2 h6{
-    color: #fff;
-    width: 300px;
-    font-family: miFuentePath;
-    font-weight: normal;
-    font-size: 25px;
-}
-
-.cont1 input {
+/* .cont1 input {
     font-size: 15px;
     cursor: pointer;
     display: flex;
@@ -706,7 +668,7 @@ button {
     display: flex;
     flex-direction: column-reverse;
     margin: 10px;
-}
+} */
 
 
 /* mis calificaciones */
