@@ -706,32 +706,6 @@ h4 {
     color: #000;
 }
 
-/* .tabla3 {
-    color: #fff;
-    font-family: miFuentePath;
-    margin-left: 448px;
-    margin-top: -516px;
-    width: 100px;
-}/*
-
-.tabla3 th {
-    background-color: ;
-    font-weight: normal;
-    font-size: 20px;
-    border-radius: 3px;
-    height: 40px;
-    width: 990px; 
-} 
-
-.tabla3 td {
-    background-color:  #7cacbdf6;
-    border-radius: 3px;
-    height: 67px;
-    text-align: center;
-    font-weight: normal;   
-}*/
-
-
 .horario_clases h6 {
     color: #fff;
     font-family: miFuentePath;
@@ -823,8 +797,31 @@ h4 {
     margin: 5px;
     border-radius: 5px;
     padding: 12px; 
-    
 }
 
+.pay_form {
+    background-color: #ffffff69;
+    font-family: miFuentePath;
+    width: 390px;
+}
+
+.pay_form h2 {
+    color: #fff;
+    font-family: miFuentePath;
+    font-weight: normal;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: -510px;
+}
+
+.pay_form h2 img {
+    margin: 30px;
+    margin-top: 4px;
+}
+
+.pagos img {
+    width: 50px;
+}
 
 
