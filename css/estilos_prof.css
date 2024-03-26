@@ -32,6 +32,7 @@
 
 body {
     background-color: #031D45;
+    overflow: hidden;
 }
 
 .linea {
@@ -189,7 +190,6 @@ label {
     font-family: miFuentePath;
     font-weight: normal;
     text-align: center;
-    /* width: 850px; */
 }
 
 .h4 {
@@ -209,6 +209,8 @@ label {
     position: relative;
 }
 
+
+
 .info_estudiante {
     display: flex;
     justify-content: center;
@@ -218,7 +220,7 @@ label {
 
 .info_estudiante table {
     margin-left: 350px;
-    margin-top: 500px;
+    margin-top: 482px;
 }
 
 .calificaciones_docente2 {
@@ -234,18 +236,20 @@ label {
 .boton9 {
     font-family: miFuentePath;
     margin: 15px;
-    font-size: 18px;
-    width: 90px;
+    font-size: 15px;
+    width: 60px;
     font-weight: normal;
-    bottom: 80px;
+    bottom: 36px;
     position: relative;
-    left: 600px;
+    left: 710px;
+    /* margin-left: 25px;
+    border-radius: 5px; */
 }
 
 .calificaciones_docente2 fieldset {
-    height: 100px;
+    height: 60px;
     width: 800px;
-    right: 1px;
+    right: -8px;
     position: relative;
 }
 
@@ -253,11 +257,6 @@ label {
     font-size: 22px;
     text-align: center;
 }
-
-#period {
-    width: 188px;
-}
-
 
 .entregas {
     margin-top: -110px;
@@ -729,7 +728,7 @@ h4 {
 }
 
 .horas {
-    background-color:  #248fc9c0;
+    background-color:  #248fc9;
     display: grid;
     border-radius: 5px;
     padding: 5px;
@@ -759,7 +758,7 @@ h4 {
 }
 
 .hora_entrada {
-    background-color: #7cacbdf6;
+    background-color: #87ccdd;
     margin: 5px;
     border-radius: 5px;
     padding: 12px; 
@@ -793,7 +792,7 @@ h4 {
 }
 
 .hora_asignatura {
-    background-color: #7cacbdf6;
+    background-color: #87c6dd;
     margin: 5px;
     border-radius: 5px;
     padding: 12px; 
@@ -820,8 +819,5 @@ h4 {
     margin-top: 4px;
 }
 
-.pagos img {
-    width: 50px;
-}
 
 
