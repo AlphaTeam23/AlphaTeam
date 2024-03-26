@@ -28,6 +28,10 @@
     font-family: miFuentePoppins;
     src: url(../fuentes/Poppins..ttf);
 }
+@font-face {
+    font-family: miFuenteInter;
+    src: url(../fuentes/);
+}
 
 
 body {
