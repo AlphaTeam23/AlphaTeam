@@ -469,6 +469,7 @@ button {
     font-size: 18px;
     font-family: miFuentePath;
     background-color: #fff;
+    overflow: hidden;
    
    
     
@@ -580,12 +581,13 @@ button {
 }
 
 #boton{
-     padding: 5px; 
+    padding: 5px; 
     text-align: center;
     height: 30px;
-    width: 100px; 
-     background-color: #023685;
+    width: 120px; 
+    background-color: #023685;
     color: #fff;
+    text-align: center;
 
 }
 
@@ -712,17 +714,24 @@ button {
 }
 
 .main{
-    position: absolute;
+    /* position: absolute;
     top: 400px;
     right: 500px;
-    width: 500px;
+    width: 500px; */
+   
 }
 
-.main-titulo {
-    margin-top: 3em;
-    text-align: center;
-    text-transform: uppercase;
+.main-titulo, h2 {
+    /* margin-top: 3em; */
+    margin-left: -170px;
+    width: 600px;
     
+}
+
+.accordion-container{
+    position: relative;
+    right: 150%;
+    top: 50px;
 }
 
 .tab-container p{
