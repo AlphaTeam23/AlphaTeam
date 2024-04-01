@@ -123,9 +123,10 @@ li img {
 
 
 h2{
+    
     font-size: 30px;
    text-align:right ;
-    margin-right: 550px;
+    margin-left: 1150px;
     transform: translateY(-30px);
     color: rgb(255, 255, 255);
     font-family: miFuentePath;
@@ -628,49 +629,20 @@ button {
 } */
 
 /* pago */
- .contenedor{
-    display: grid;
-    /* grid-gap: 2rem 5rem;
-    grid-template-columns: 2fr 6fr 4fr;
-    grid-template-rows: 3rem; */
-    margin: 0 45rem;
-    margin-top: 150px;
-    transform: translateY(-460px);
-    padding: 10px;
-        width: 300px;
-    
-        background-color: #555;
+.pay_form img {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    left: -15px;
+    margin: -5px;
 }
 
 
-.pago1 img{
-    width: 60px;
-    
-}
-.contenedor h2{
-    display: flex;
-    width: 500px;
-    margin-top: 40px;
-   margin-left: 30px;
-   
-}
 
 
-/* .cont1 input {
-    font-size: 15px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 10px;
-}
 
-.cont2 input {
-    font-size: 15px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 10px;
-} */
+
+
 
 
 /* mis calificaciones */
