@@ -120,13 +120,13 @@ li img {
     margin: 20px;
 }
 
+/* informacion docente */
 
-
-h2{
-    
+.docente {
+    position: relative;
+    left: 380px;
     font-size: 30px;
-   text-align:right ;
-    margin-left: 1150px;
+    text-align:right ;
     transform: translateY(-30px);
     color: rgb(255, 255, 255);
     font-family: miFuentePath;
@@ -135,7 +135,7 @@ h2{
     
 }
 
-/* informacion docente */
+
 
 main{
     display: grid;
@@ -629,12 +629,32 @@ button {
 } */
 
 /* pago */
-.pay_form img {
+ .pay_form img {
     width: 34px;
     height: 34px;
     position: relative;
     left: -15px;
-    margin: -5px;
+    margin: -5px; 
+} 
+
+.pay_form h2{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+
+.pay_form p {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    left: 510px;
+    bottom: 50px;
+    color: white;
+}
+
+.pagos{
+    position: relative;
+    left: 180px;
 }
 
 
@@ -661,6 +681,7 @@ button {
     font-weight: normal;
     text-align: center;
     margin-left: 70px;
+    color: #b9b7b7;
 }
 
 .calificaciones table {
