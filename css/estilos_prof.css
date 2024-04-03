@@ -123,7 +123,15 @@ h1 {
     nav:focus + ul {
         display: none;
     }
-}
+
+    .inf_basica_profesor {
+        background-color: #000;
+        left: -400px;
+        position: relative;
+    }
+
+    }
+
 
 span {
   font-family: miFuenteJust;
@@ -501,7 +509,6 @@ button {
 
 /* Informacion de perfil de profesor en Gestión perfil */
 .inf_basica_profesor {
-    background-color: #ffffff6e;
     width: 40%;
     margin-left: 450px;
     margin-top: 150px;
@@ -518,7 +525,7 @@ button {
     padding: 5px;
     width: 1050px;
     font-size: 18px;
-    color: #000000;
+    color: #ffffff;
     font-weight: normal;
 }
 
@@ -534,7 +541,7 @@ b {
 }
 
 .inf_basica_profesor {
-    background-color: #bdb9b9;
+    background-color: #bdb9b931;
 }
 
 .inf_basica_profesor img {
@@ -562,7 +569,7 @@ b {
 }
 
 h4 {
-    color: #000000;
+    color: #ffffff;
     font-family: miFuentePath;
     font-weight: normal;
     font-size: 18px;
