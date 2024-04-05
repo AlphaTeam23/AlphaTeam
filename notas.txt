@@ -8,5 +8,19 @@ quitar traslado
 paginas con mismo estilo
 Definir roles
 
+NOTAS 05/04/2024
+
+
+agrandar titulo de AlphaTeam
+Los menu deben ser mas pequeños que el nombre
+textos de entrada debentener colores negros o blancos
+corregir los iconos de redes
+una pagina para entrar como profesor y admin
+notas deberia de ponerla el profesor
+Arreglar inscripcion
+Arreglar botones
+en la pagina del profesor poner por defecto el profesor asignado
+
+
 
 
