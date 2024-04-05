@@ -191,13 +191,46 @@ li img {
   top: -400px;
   left: 4%;
   transform: translate(-10%, -100%);
-  width: 877px;
+  width: 876px;
   height: 100px;
   padding: 20px;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.barra1 {
+  position: absolute;
+  top: -400px;
+  left: 4%;
+  transform: translate(-10%, -100%);
+  width: 847px;
+  height: 100px;
+  padding: 20px;
+  color: #fff;
+}
+
+.barra2 {
+  position: absolute;
+  top: -400px;
+  left: 4%;
+  transform: translate(-10%, -100%);
+  width: 878px;
+  height: 100px;
+  padding: 20px;
+  color: #fff;
+}
+
+.barra3 {
+  position: absolute;
+  top: -400px;
+  left: 4%;
+  transform: translate(-10%, -100%);
+  width: 845px;
+  height: 100px;
+  padding: 20px;
+  color: #fff;
 }
 
 .btcargar {
@@ -245,8 +278,6 @@ li img {
   color: #000;
 } 
 
-
-
 .aprobar{
   position: absolute;
   bottom: 0px;
@@ -254,7 +285,7 @@ li img {
   left: 91%;
   width: auto;
   transform: translateX(-50%);
-   
+ 
 }
 
 
