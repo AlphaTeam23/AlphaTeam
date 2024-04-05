@@ -175,7 +175,7 @@ main h4{
 main img{
     width: 300px;
    position: absolute;
-   left: 100%;
+   left: 115%;
    
    
 }
@@ -346,7 +346,10 @@ button {
 
 .cambiode_contraseña h2{
     width: 500px;
-    padding-right: 100px;
+   display: flex;
+   justify-content: right;
+   color: #ffffff;
+   margin-left: -80px;
 }
 
 .cambiode_contraseña label{
@@ -406,7 +409,7 @@ button {
     border-radius: 5px;
     bottom: -60px;
     position: relative;
-    left: 170px;
+    left: 250px;
     color: #000;
     cursor: pointer;
 }
@@ -427,8 +430,8 @@ button {
 /* boton regresar */
 
 .regresar {
-    margin-left: 80px;
-    margin-top: -110px;
+    margin-left: 210px;
+    margin-top: -100px;
 }
 
 .regresar img {
@@ -693,3 +696,127 @@ figure img{
     border-radius: 5px;
     margin-left: -120px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* mis calificaciones */
+
+.calificaciones section{
+    margin-top: -15px;
+   margin-left: 50px;
+}
+
+.calificaciones  h2{
+    transform: translate(100px);
+    line-height: 2;
+    font-size: 30px;
+    width: 500px;
+    font-family: miFuentePath;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 70px;
+    color: #ffffff;
+}
+
+.calificaciones table {
+    width: 800px;
+   height: 300px;
+   color: #fff;
+   font-family: miFuentePath;
+   font-size: 20px;
+}
+
+
+
+.ml th{
+    text-align: center;
+    font-weight: normal;
+}
+
+/* ayuda */
+
+.top{
+    margin-top: 60px;
+    transform: translate(0);
+}
+
+.preguntas{
+    position: relative;
+    left: 500px;
+   color: #fffcfc;
+}
+
+.main-titulo, h2 {
+    /* margin-top: 3em; */
+    margin-left: -170px;
+    width: 600px;
+    
+}
+
+.accordion-container{
+    position: relative;
+    right: 150%;
+    top: 50px;
+}
+
+.tab-container p{
+    text-align: left;
+
+}
+
+
+
+.accordion-container input {
+    display: none;
+}
+
+
+
+.accordion-container .tab {
+    overflow: hidden;
+}
+
+.accordion-container .tab-container {
+    max-height: 0;
+    padding: 0 1em;
+    transition: all 0.25s;
+    
+}
+
+.accordion-container input:checked~.tab-container {
+    max-height: 100vh;
+    padding: 1em;
+    color: #ffffff
+}
+
+.accordion-container .tab-title {
+    display: flex;
+    padding: 1em;
+    cursor: pointer;
+    background: transparent;
+    color: #ffffff;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+
+.accordion-container .tab-title:hover {
+    background: #00f57af5;
+}
+
+.accordion-container .tab-title::after {
+    content: "❯";
+    transition: all 0.25s;
+}
+
+.accordion-container input:checked+.tab-title::after {
+    transform: rotate(90deg);
+}
+
