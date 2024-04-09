@@ -297,10 +297,10 @@ table {
 
 .tabla2 th {
     font-weight: normal;
+    border-radius: 5px;
 }
 
 .tabla2 td {
-    color: #248fc9;
     border-radius: 5px;
 }
 
@@ -520,14 +520,73 @@ button {
 
 /* Informacion de perfil de profesor en Gestión perfil */
 .inf_basica_profesor {
-    background-color: rgb(0, 0, 0, 43%);
-    width: 50%;
-    height: 350px;
-    margin-left: 380px;
+    background-color: #d9d9d921;
+    width: 35%;
+    height: 300px;
+    margin-left: 450px;
     margin-top: 150px;
     cursor: pointer;
     border-radius: 30px;
 }
+
+.inf_basica_profesor h2 {
+    color: #fff;
+    font-family: miFuentePath;
+    text-align: center;
+    font-weight: normal;
+    bottom: -15px;
+    position: relative;
+}
+
+.inf_basica_profesor img {
+    background-color: #d9d9d975;
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.estudiante-img .camara2 {
+    width: 50px;
+    background-color: transparent;
+    margin-left: -30px;
+}
+
+.titinfo h4 {
+    background-color: #d9d9d996;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    bottom: 150px;
+    padding: 2px;
+    position: relative;
+}
+
+.inf_basica_profesor .titinfo h4 {
+    color: #000;
+    margin: 10px;
+    width: 200px;
+    margin-left: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .estudiante-img {
     background-color: #ffffff21;
