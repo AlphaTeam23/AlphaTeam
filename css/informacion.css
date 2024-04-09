@@ -479,17 +479,19 @@ button {
     
 }
 
-/* .num2 {
-    height: 490px;
-    color: #000000;
-    font-size: 18px;
-    font-family: miFuentePath;
-    background-color: #ffffff;
-  
+.B{
+    background-color: #00ccff;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    padding: 6px;
+    width: 20px;
+    height: 23px;
+    z-index: 1;
+                                                                                                             
+}
 
-} */
-
- .cu{
+.cu{
     background-color: #00ccff;
     position: relative;
     left: 20px;
@@ -497,6 +499,7 @@ button {
     padding: 6px;
     width: 20px;
     height: 33px;
+    
 } 
 
 .A{
