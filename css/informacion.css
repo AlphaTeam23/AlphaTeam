@@ -25,6 +25,11 @@
     src: url(../fuentes/Pathway_Extreme.ttf);
 }
 
+@font-face {
+    font-family: miFuentemont;
+    src: url(../Monstserrat-ExtraBoldltalic.ttf);
+}
+
 
 
 body {
@@ -635,21 +640,31 @@ button {
 } */
 
 /* pago */
+
+
+.pay_form p, h2{
+    font-family: miFuentemont;
+}
  .pay_form img {
+
     width: 34px;
     height: 34px;
     position: relative;
     left: -15px;
     margin: -5px; 
+    
    
 } 
 
 .pay_form h2{
+    font-family: miFuentemont;
     display: flex;
     justify-content:right ;
     color: white;
-   transform: translate(-100px);
+   transform: translate(-100px); 
 }
+
+
 
 .pay_form p {
     display: flex;
@@ -658,6 +673,7 @@ button {
     left: 410px;
     bottom: 50px;
     color: white;
+   
 }
 
 .pagos{
@@ -673,31 +689,35 @@ button {
     margin: auto 10px;
     width: 24px;
     height: 24px;
+    
+    
 }
 
 .pagos img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     position: relative;
     left: 220px;
-    bottom: 25px;
+    bottom: 2px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    margin: -20px;
 }
 
 .opcion_pago{
     margin-left: 50px;
     padding: 5px;
     width: 620px;
+    height: 300px;
     background-color: rgb(0, 0, 0, 43%);
    border-radius: 10px;
 }
 figure img{
     margin-top: -6px ;
-    height: 445px;
+    height: 300px;
     border-radius: 5px;
-    margin-left: -120px;
+    margin-left: -250px;
 }
 
 
