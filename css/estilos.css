@@ -63,7 +63,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 span {
@@ -79,7 +79,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 200px;
+    width: 600px;
     margin-top: 80px;
     transform: translate(500px);
 }
@@ -133,6 +133,9 @@ input {
    font-size: 16px;
 }
 
+.iniciar_container input {
+    color: #fff;
+}
 
 .imagen {
   width: 20px;
@@ -151,7 +154,7 @@ input {
 ::placeholder {
     color: #ffffff83;
     font-family: miFuentePath;
-    font-size: 20px;   
+    font-size: 20px;    
 }
 
 .btn {
@@ -191,15 +194,16 @@ aside h4 {
 .contenedor {
     display: flex;
     position: absolute;
-}
-.container img {
-    width: 20px;
-    margin: 10px;
+    gap: 5px;
 }
 
 .container img {
-    left: 20px;
-    position: relative;
+    width: 20px;
+}
+
+.container img {
+    margin-left: 23px;
+    
 }
 
 h4 {
