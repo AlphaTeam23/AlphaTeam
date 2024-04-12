@@ -177,13 +177,16 @@ main h4{
  
 }
 
-main img{
-    width: 300px;
+ main img{
+   
+    width: 250px;
+    height: 100px;
    position: absolute;
-   left: 115%;
+   top: 50px;
+   left: 145%;
    
    
-}
+} 
 
 
 .informacion {
@@ -329,7 +332,18 @@ button {
 .gestion img {
     float: right;
     width: 19px;
+
+    
 }
+
+.modo_claro{
+    position: relative;
+    left: 950px;
+    width: 60px;
+    bottom: 100px;
+    padding: 5px;
+}
+
 
 .camara img {
  margin: -6px;
@@ -486,13 +500,8 @@ button {
 
 .B{
     background-color: #00ccff;
-    position: relative;
-    left: 20px;
-    bottom: 20px;
-    padding: 6px;
-    width: 20px;
-    height: 23px;
-    z-index: 1;
+ 
+    
                                                                                                              
 }
 
@@ -635,12 +644,8 @@ button {
 
 }
 
-/* .t  {
-    margin-left: 20px;
-} */
 
 /* pago */
-
 
 .pay_form p, h2{
     font-family: miFuentemont;
@@ -659,7 +664,7 @@ button {
 .pay_form h2{
     font-family: miFuentemont;
     display: flex;
-    justify-content:right ;
+    justify-content:right;
     color: white;
    transform: translate(-100px); 
 }
@@ -670,8 +675,8 @@ button {
     display: flex;
     justify-content: right;
     position: relative;
-    left: 410px;
-    bottom: 50px;
+    left: 490px;
+    bottom: 40px;
     color: white;
    
 }
@@ -693,16 +698,18 @@ button {
     
 }
 
+
+
 .pagos img{
-    width: 30px;
+    width: 40px;
     height: 30px;
-    position: relative;
-    left: 220px;
-    bottom: 2px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin: -20px;
+    position: relative; 
+     left: 220px; 
+    top: -20px; 
+     display: flex; 
+    /* flex-direction: row-reverse;
+    justify-content: center; */
+    /* margin: -20px; */
 }
 
 .opcion_pago{
