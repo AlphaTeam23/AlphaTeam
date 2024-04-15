@@ -27,6 +27,7 @@
 body {
   background-color: #031D45;
   font-family: miFuentePath; 
+  overflow: hidden;
 }
 
 .linea {
@@ -223,8 +224,8 @@ li img {
 
 .barra3 {
   position: absolute;
-  top: -400px;
-  left: 4%;
+  top: -390px;
+  left: -16px;
   transform: translate(-10%, -100%);
   width: 845px;
   height: 100px;
@@ -384,8 +385,8 @@ li img {
   background-color: #ffffff83;
   color: #0d0c0c;
   position: absolute;
-  top: 280px;
-  left: 425px;
+  top: 290px;
+  left: 400px;
   height: 20px;
   width: 845px;
 }
@@ -395,10 +396,11 @@ li img {
   background-color: #ffffff83;
   color: #0d0c0c;
   position: absolute;
-  top: 310px;
-  left: 425px;
+  top: 320px;
+  left: 400px;
   height: 20px;
   width: 845px;
+  
 }
 
 .datosrecord2 {
@@ -407,7 +409,7 @@ li img {
   color: #0d0c0c;
   position: absolute;
   top: 530px;
-  left: 425px;
+  left: 400px;
   height: 20px;
   width: 845px;
 }
