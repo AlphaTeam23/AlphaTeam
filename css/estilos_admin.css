@@ -161,6 +161,7 @@ li img {
 }
 
 .admin img {
+  margin-right: 50px;
   width: 20px;
   height: 20px;
 }
