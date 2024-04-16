@@ -2,9 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
+/* Fuentes */
 @font-face {
     font-family: miFuenteLime;
     src: url(../fuentes/Limelight-Regular.ttf);
@@ -26,83 +26,48 @@
 }
 
 @font-face {
-    font-family: miFuentemont;
-    src: url(../Monstserrat-ExtraBoldltalic.ttf);
+    font-family: miFuentePoppins;
+    src: url(../fuentes/Poppins..ttf);
 }
-
-
 
 body {
-    background-color: #031D45; 
-    overflow-x: hidden;
-}
-
- .linea {
-    background-color: rgba(217, 217, 217, 1);
-    height: 200%;
-    padding: 5px;
-    width: 20px;
-    position: absolute;
-    bottom: 1px;
-    margin-left: 20px;
+    background-image: url(/imagenes/image\ 1\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
     overflow: hidden;
-
-} 
-
-.linea2 {
-    background-color: rgba(217, 217, 217, 1);
-    height: 100%;
-    padding: 5px;
-    width: 20px;
-    position: absolute;
-    left: 50px;
-    bottom: 1px;
+    background-position-y: -129px;
+    object-fit: cover;
 }
 
-
-
-
-h1 {
-    transform: translate(120px);
+h1{
     font-family: miFuenteLime;
-    width: 250px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    margin-top: 40px;
-    font-size: 35px;
-   
-}
-
-span {
-    font-family: miFuenteJust;
-    color: rgb(255, 255, 255);
+    color: #fff;
+    margin: 60px;
+    margin-top: 30px;
     font-weight: normal;
-    margin-left: 42px;
-    bottom: 14px;
-    position: relative;
-}
-
-
-
-header ul{
-    margin-left: 70px;
+    font-size: 38px;
 }
 
 ul {
     font-family: miFuentePath;
-    margin: 60px;
+    margin: 50px;
+    margin-top: -100px;
 }
 
 li {
-    background-color: #d9d9d921;
-    margin: -10px;
+    background-color: #d9d9d931;
+    margin: -5px;
     width: 310px;
     text-align: center;
     height: 47px;
     list-style-type: none;
-    margin-left: 20px;
-    bottom: 50px;
-    position: relative;
+    border-radius: 10px;
+
+}
+
+li:hover {
+    background-color: gray;
 }
 
 li a {
@@ -125,32 +90,152 @@ li img {
     margin: 20px;
 }
 
+/* Página Gestión Perfil (Menú desplegable) */
+button {
+    font-size: 15px;
+    font-family: miFuentePath;
+    font-weight: normal;
+    margin-right: 90px;
+    color: #fffefe;
+    background-color: rgb(217, 217, 217, 33%);
+}
+
+.container_prueba {
+    position: relative;
+    top: 550px;
+
+}
+
+.menu-btn img {
+    width: 18px;
+    position: relative;
+    left: 45px;
+    bottom: 18px;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+.menu-btn {
+    position: absolute;
+    top: -220px;
+    right: 0;
+    width: 0;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.menu-items {
+    position: absolute;
+    top: -80px;
+    right: 10px;
+    background-color: rgba(217, 217, 217, 75%);
+    color: #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-items a {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: miFuentePath;
+    border-top: solid 1px rgba(255, 255, 255, 0.705);
+
+
+}
+
+.menu-items li {
+    border-bottom: 10px solid #555;
+
+
+}
+
+.menu-items a {
+    display: block;
+    padding: 10px;
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.menu-items a:hover {
+    background-color: #555;
+}
+
+
+.menu-btn:focus+.menu-items,
+.menu-items:hover {
+    display: block;
+}
+
+.menu-items img {
+    width: 20px;
+    float: left;
+}
+
+.gestion {
+    font-size: 20px;
+    text-align: center;
+    font-family: miFuentePath;
+    font-weight: normal;
+
+
+}
+
+.gestion img {
+    float: right;
+    width: 19px;
+}
+
+.camara img {
+    margin: -6px;
+    transform: translateY(-3px);
+    width: 15px;
+}
+
+
 /* informacion docente */
 
 .docente {
     position: relative;
     left: 380px;
     font-size: 30px;
-    text-align:right ;
+    text-align: right;
     transform: translateY(-30px);
     color: rgb(255, 255, 255);
     font-family: miFuentePath;
     font-weight: normal;
-    
-    
+
+
 }
 
 
 
-main{
+main {
     display: grid;
     grid-gap: 2rem 5rem;
     grid-template-areas:
-    "figure";
+        "figure";
     grid-template-columns: 2fr 6fr 4fr;
     grid-template-rows: 3rem;
     margin: 0 25rem;
-   transform: translateY(-440px); 
+    transform: translateY(-440px);
 }
 
 .info_docente p {
@@ -158,35 +243,35 @@ main{
     color: rgb(255, 255, 255);
     font-size: 25px;
     text-align: justify;
-   margin: 40px;
-  transform: translate(-135%);
-  font-family: miFuentePath;
-  margin-top: 60px;
-  
+    margin: 40px;
+    transform: translate(-135%);
+    font-family: miFuentePath;
+    margin-top: 60px;
+
 }
 
 .info_docente h4 {
     font-size: 34px;
     text-align: center;
-   width: 600px;
-   color: rgb(255, 255, 255);
-   transform: translate(10px);
-   font-family: miFuentePath;
-   font-weight: normal;
- 
- 
+    width: 600px;
+    color: rgb(255, 255, 255);
+    transform: translate(10px);
+    font-family: miFuentePath;
+    font-weight: normal;
+
+
 }
 
 .info_docente img {
-   
-    width: 250px;
-    height: 250px;
+
+   width: 350px;
+   height: 350px;
    position: absolute;
    top: 50px;
    left: 100%;
-   
-   
-} 
+
+
+}
 
 
 .informacion {
@@ -213,648 +298,8 @@ main{
 }
 
 
-h6{
+h6 {
     font-size: 19px;
-   margin: 10px;
-  
-}
-
-button {
-    font-size: 15px;
-    font-family: miFuentePath;
-    font-weight: normal;
-   
-    
-    margin-right: 90px;
-    color: #fffefe;
-   
-   
-    background-color: rgb(217, 217, 217, 33%);
-}
-
-.container_prueba{
-    position: relative;
-    top: 30px;
-    
-}
-
-.menu-btn img{
-    width: 18px;
-    position: relative;
-    left: 45px;
-    bottom: 18px;
-}
-
-
-.container {
-    position: relative;
-    width: 100%;
-   
-}
-
-.menu-btn {
-    position: absolute;
-    top: -130px;
-    right: 0;
-    width: 0;
-    color: #fff;
-    border: none;
-    width: 60px;
-    height: 18px;
-    cursor: pointer;
-}
-
-.menu-items {
-    position: absolute;
-    top: -80px;
-    right: 10px;
-    background-color: rgba(217, 217, 217, 75%); 
-    color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    display: none;
-    z-index: 1;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.menu-items a {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-family: miFuentePath;
-    border-top: solid 1px rgba(255, 255, 255, 0.705);
-   
-    
-}
-
-.menu-items li {
-     border-bottom: 10px solid #555; 
-    
-    
-}
-
-.menu-items  a {
-    display: block;
-    padding: 10px;
-   
-    text-decoration: none;
-    color: #fff;
-    font-size: 17px;
-    width: 200px;
-    text-align: center;
-   
-}
-
-.menu-items  a:hover {
-     background-color: #555; 
-}
-
-
-.menu-btn:focus+.menu-items,
-.menu-items:hover {
-    display: block;
-}
-
-.menu-items  img{ 
-    width: 20px;
-    float: left;
-}
-
-.gestion {
-    font-size: 20px;
-    text-align: center;
-    font-family: miFuentePath;
-    font-weight: normal;
-   
-
-}
-
-.gestion img {
-    float: right;
-    width: 19px;
-
-    
-}
-
-.modo_claro{
-    position: relative;
-    left: 950px;
-    width: 60px;
-    bottom: 100px;
-    padding: 5px;
-}
-
-
-.camara img {
- margin: -6px;
- transform: translateY(-3px);
- width: 15px;
-}
-
-
-/* contenido de lo hay que hay en el menu desplegable */
-
-.cambiode_contraseña{
- position: absolute;
- bottom: -230px;
- left: -60px;
- display: flex;
- flex-direction: column;
- 
-}
-
-.cambiode_contraseña h2{
-    width: 500px;
-   display: flex;
-   justify-content: right;
-   color: #ffffff;
-   margin-left: -80px;
-}
-
-.cambiode_contraseña label{
-    color: #fff;
-    font-size: 25px;
-}
-
-
-
-.cambiode_contraseña img{
-    position: absolute;
-    left:236px;
-    top: 90px;
-    width: 20px;
-    
-}
-
-.cambiode_contraseña {
-    font-family: miFuentePath;
-    width: 600px;
-    font-size: 20px;
-    padding-left: 25px;
-    
-}
-
-.input1 {
-    background-color: #d9d9d949;
-    border: none;
-    left: 35px;
-    position: relative;
-    margin: 20px;
-    height: 30px;
-    padding-left: 24px;
-}
-
-.input2 {
-    background-color: #d9d9d949;
-    border: none;
-    position: relative;
-    left: 20px;
-    height: 30px;
-    padding-left: 24px;
-}
-
-.input_boton1 {
-    font-family: miFuentePath;
-}
-
-.enviar  {
-    font-family: miFuentePath;
-    background-color: #fff;
-    font-size: 20px;
-    justify-content: center;
-    display: flex;
-    height: 25px;
-    width: 90px;
-    border-radius: 5px;
-    bottom: -60px;
-    position: relative;
-    left: 250px;
-    color: #000;
-    cursor: pointer;
-}
-
-.enviar:hover{
-    background-color: #b9b7b7;
-}
-
-.imagen {
-    position: absolute;
-    top: 55px;
-    
-    left: 1px;
-}
-
-
-
-/* boton regresar */
-
-.regresar {
-    margin-left: 210px;
-    margin-top: -100px;
-}
-
-.regresar img {
-    width: 18px;
-    height: 18px;
-}
-
-
-
-.p {
-    font-size: 15px;
-}
-
-
-
-/* reinscripcion */
-
-.navar{
-    margin-top: 300%;
-}
-
-.reinscripcion{
-    width: 800px;
-    margin-left: 70px; 
-   
-}
-
-/* .reinscripcion form{
-   display: flex;
-   flex-wrap: wrap;
-    
-} */
-
-.num{
-    height: 510px;
-    position: relative;
-    bottom: 10px;
-    color: #000000;
-    font-size: 18px;
-    font-family: miFuentePath;
-    background-color: #fff;
-    overflow: hidden;
-   
-   
-    
-}
-
-.B{
-    background-color: #00ccff;
- 
-    
-                                                                                                             
-}
-
-.cu{
-    background-color: #00ccff;
-    position: relative;
-    left: 20px;
-    bottom: 33px;
-    padding: 6px;
-    width: 20px;
-    height: 33px;
-    
-} 
-
-.A{
-    background-color: #00ccff;
-    position: relative;
-    left: 20px;
-    bottom: 66px;
-    padding: 6px;
-    width: 20px;
-    height: 33px;
-    z-index: 1;
-}
-
-.reinscripcion legend {
-    
-    color: #fff;
-    font-size: 20px;
-    font-family: miFuentePath;
-    padding: 5px;
-    background-color: #023685;
-    width: 750px;
-    border-bottom: 22px 22px 22px  rgb(240, 28, 5);
-    padding-left: 25px;
-    margin-left:20px ;
-    z-index: 1;
-   
-}
-
-.reinscripcion label{
-    color: #000000;
-    font-size: 17px;
-    font-family: miFuentePath;
-    padding-left: 10px;
-    
-   
-}
-
-#edad{
-    width: 50px;
-}
-
-#tel{
-    width: 103px;
-}
-
-#tel::placeholder{
-    font-size: 11px;
-}
-
-#tele{
-    width: 100px;
-}
-
-#tele::placeholder{
-    font-size: 11px;
-}
-
-.full{
-   position: relative;
-   bottom: 39px;
-}
-
-.full2 {
-    position: relative;
-    bottom: 59px;
-}
-
-.full3 {
-    position: relative;
-    bottom: 79px;
-}
-
-.full4 {
-    position: relative;
-    bottom: 79px;
-}
-
-.full5 {
-    position: relative;
-    bottom: 100px;
-}
-
-.full6{
-    position: relative;
-    bottom: 40px;
-}
-
-#boton{
-    padding: 5px; 
-    text-align: center;
-    height: 30px;
-    width: 120px; 
-    background-color: #023685;
-    color: #fff;
-    text-align: center;
-
-}
-
-#boton:hover{
-    background-color: #00ccff;
-    color: #050404;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #00ccff
-                0 0 25px #00ccff
-                0 0 50px #00ccff
-                0 0 200px #00ccff
-    ;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
-}
-
-
-
-
-
-.cls{
-    position: relative;
-    bottom: 33px;
-}
-
-
-
-.reinscripcion input{
-    color: #000000;
-    margin: 15px;
-    height: 10px;
-  padding: 10px;
-  padding-left: 4px;
-
-}
-
-
-/* pago */
-
-.pay_form p, h2{
-    font-family: miFuentemont;
-}
- .pay_form img {
-
-    width: 34px;
-    height: 34px;
-    position: relative;
-    left: -15px;
-    margin: -5px; 
-    
-   
-} 
-
-.pay_form {
-    position: relative;
-    bottom: 290px;
-}
-
-.pay_form h2{
-    margin-bottom: 110px;
-    font-family: miFuentemont;
-    display: flex;
-    justify-content:right;
-    color: white;
-   transform: translate(-100px); 
-}
-
-
-
-.pay_form p {
-    display: flex;
-    justify-content: right;
-    position: relative;
-    left: -330px;
-    bottom: 90px;
-    font-size: 20px;
-    color: white;
-   
-}
-
-.pagos{
-    position: relative;
-    left: 50px;
-    bottom: 80px;
-    font-size: 20px;
-    color: #ffffff;
-    
-}
-
-.pagos input{
-    margin: auto 10px;
-    width: 24px;
-    height: 24px;
-    
-    
-}
-
-
-
-.pagos img{
-    width: 60px;
-    height: 20px;
-    position: relative; 
-    left: 280px; 
-    top: -20px; 
-    display: flex;
-   
-    
-    /* flex-direction: row-reverse;
-    justify-content: center; */
-    /* margin: -20px; */
-}
-
-.opcion_pago{
-    margin-left: 50px;
-    padding: 5px;
-    width: 620px;
-    height: 300px;
-    background-color: rgb(0, 0, 0, 43%);
-   border-radius: 10px;
-}
-.tarjeta img {
-    margin-top: -5px ;
-    /* margin-left: -400px; */
-    position: relative;
-    left: 400px;
-    border-bottom-right-radius:20px;
-    border-top-right-radius:20px;
-    width: 220px;
-    height: 300px;
-   
-    /* border-radius: 10px; */
-  
-}
-
-
-/* mis calificaciones */
-
-.calificaciones section{
-    margin-top: -15px;
-   margin-left: 50px;
-}
-
-.calificaciones  h2{
-    transform: translate(100px);
-    line-height: 2;
-    font-size: 30px;
-    width: 500px;
-    font-family: miFuentePath;
-    font-weight: normal;
-    text-align: center;
-    margin-left: 70px;
-    color: #ffffff;
-}
-
-.calificaciones table {
-    width: 800px;
-   height: 300px;
-   color: #fff;
-   font-family: miFuentePath;
-   font-size: 20px;
-}
-
-
-
-.ml th{
-    text-align: center;
-    font-weight: normal;
-}
-
-/* ayuda */
-
-.top{
-    margin-top: 60px;
-    transform: translate(0);
-}
-
-.preguntas{
-    position: relative;
-    left: 500px;
-   color: #fffcfc;
-}
-
-.main-titulo, h2 {
-    /* margin-top: 3em; */
-    margin-left: -170px;
-    width: 600px;
-    
-}
-
-.accordion-container{
-    position: relative;
-    left: -160%;
-    top: 50px;
-    width: 500px;
-}
-
-.tab-container p{
-    text-align: left;
-
-}
-
-
-
-.accordion-container input {
-    display: none;
-}
-
-
-
-.accordion-container .tab {
-    overflow: hidden;
-}
-
-.accordion-container .tab-container {
-    max-height: 0;
-    padding: 0 1em;
-    transition: all 0.25s;
-    
-}
-
-.accordion-container input:checked~.tab-container {
-    max-height: 100vh;
-    padding: 1em;
-    color: #ffffff
-}
-
-.accordion-container .tab-title {
-    display: flex;
-    padding: 1em;
-    cursor: pointer;
-    background: transparent;
-    color: #ffffff;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(0 0 0 / 10%);
-}
-
-.accordion-container .tab-title:hover {
-    background: #00f57af5;
-}
-
-.accordion-container .tab-title::after {
-    content: "❯";
-    transition: all 0.25s;
-}
-
-.accordion-container input:checked+.tab-title::after {
-    transform: rotate(90deg);
+    margin: 10px;
 }
 
